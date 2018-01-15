@@ -1,0 +1,11 @@
+/*
+This file contains all the CSS you wanted minified
+and bundled. If you want something inline name the file
+with .inline.css and import it in the JS file.
+
+import 'styles/coolmodule.inline.css';
+*/
+
+
+@import "_constants.css";
+@import "app.css";

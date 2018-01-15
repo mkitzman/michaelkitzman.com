@@ -1,0 +1,120 @@
+{
+  "ignoreFiles": [
+        "build/*"
+  ],
+  "rules": {
+    "function-name-case": "lower",
+    "property-case": "lower",
+    "selector-pseudo-element-case": "lower",
+    "selector-type-case": "lower",
+    "selector-pseudo-class-case": "lower",
+    "unit-case": "lower",
+    "value-keyword-case": "lower",
+    "block-no-empty": true,
+    "color-no-invalid-hex": true,
+    "declaration-block-trailing-semicolon": "always",
+    "no-eol-whitespace": true,
+    "string-no-newline": true,
+    "unit-no-unknown": true,
+
+    "declaration-block-no-duplicate-properties": [ true, {
+      "ignore": ["consecutive-duplicates"]
+    } ],
+    "color-hex-case": [ 
+        "upper", 
+        { "severity": "error" } 
+    ],
+    "color-hex-length": [ 
+        "long", 
+        { "severity": "error" } 
+    ],
+    "color-named": [ 
+        "never", 
+        { "severity": "error" } 
+    ],
+    "declaration-block-no-shorthand-property-overrides": [ 
+        true, 
+        { "severity": "warning" } 
+    ],
+    "declaration-block-semicolon-newline-after": [ 
+        "always-multi-line", 
+        { "severity": "warning" } 
+    ],
+    "declaration-block-semicolon-space-after": [ 
+        "always-single-line", 
+        { "severity": "warning" } 
+    ],
+    "declaration-block-semicolon-space-before": [ 
+        "never", 
+        { "severity": "warning" } 
+    ],
+    "font-weight-notation": [ 
+        "numeric", 
+        {"severity": "warning"} 
+    ],
+    "function-calc-no-unspaced-operator": [ 
+        true, 
+        {"severity": "warning"} 
+    ],
+    "function-comma-space-before": [ 
+        "never", 
+        {"severity": "warning"} 
+    ],
+    "function-comma-space-after": [ 
+        "always-single-line", 
+        {"severity": "warning"} 
+    ],
+    "function-max-empty-lines": [ 
+        0, 
+        {"severity": "warning"} 
+    ],
+    "function-whitespace-after": [ 
+        "always", 
+        {"severity": "warning"} 
+    ],
+    "max-empty-lines": [ 
+        2, 
+        {"severity": "warning"} 
+    ],
+    "max-nesting-depth": [ 
+        3, 
+        {"severity": "warning"} 
+    ],
+    "number-no-trailing-zeros": [ 
+        true, 
+        {"severity": "warning"} 
+    ],
+    "selector-attribute-brackets-space-inside": [ 
+        "never", 
+        {"severity": "warning"} 
+    ],
+    "selector-combinator-space-before": [ 
+        "always", 
+        {"severity": "warning"} 
+    ],
+    "selector-combinator-space-after": [ 
+        "always", 
+        {"severity": "warning"} 
+    ],
+    "selector-pseudo-class-parentheses-space-inside": [ 
+        "never", 
+        {"severity": "warning"} 
+    ],
+    "selector-pseudo-element-colon-notation": [ 
+        "double", 
+        {"severity": "warning"} 
+    ],
+    "unit-whitelist": [ 
+        ["em", "rem", "%", "px", "deg", "s", "vh", "vw", "fr"],
+        {"severity": "warning"} 
+    ],
+    "value-list-comma-space-before": [ 
+        "never", 
+        {"severity": "warning"} 
+    ],
+    "value-list-comma-space-after": [ 
+        "always", 
+        {"severity": "warning"} 
+    ]
+  }
+}

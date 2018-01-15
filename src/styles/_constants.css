@@ -1,0 +1,41 @@
+:root {
+    /* Break Points */
+   --min-small-screen: 36em;
+   --min-large-screen: 48em;
+
+    /* Ratio on smaller screens */
+    --ratio-for-small-screen: 1.2;
+    --ratio-for-large-screen: 1.414;
+
+    --base-font-size: 100%; /* 16px */
+    --base-line-height: 1.5;
+    --base-letter-spacing: 1px;
+    --base-font-color: hsla(0, 0%, 0%, 0.8);
+
+    /* Type scale */
+    --font-size-up-1: media(
+    c   alc(1em * var(--ratio-for-small-screen)),
+        (min-width: var(--min-large-screen)) calc(1em * var(--ratio-for-large-screen))
+    );
+
+    --font-size-up-2: media(
+        calc(1em * var(--ratio-for-small-screen) * var(--ratio-for-small-screen)),
+        (min-width: var(--min-large-screen)) calc(1em * var(--ratio-for-large-screen) * var(--ratio-for-large-screen))
+    );
+
+    --font-size-up-3: media(
+        calc(1em * var(--ratio-for-small-screen) * var(--ratio-for-small-screen) * var(--ratio-for-small-screen)),
+        (min-width: var(--min-large-screen)) calc(1em * var(--ratio-for-large-screen) * var(--ratio-for-large-screen) * var(--ratio-for-large-screen))
+    );
+
+    --font-size-down-1: media(
+        calc(v1em / var(--ratio-for-small-screen)),
+        (min-width: var(--min-large-screen)) calc(1em / var(--ratio-for-large-screen))
+    );
+
+
+}
+
+/* Media Queries */
+@custom-media --maxwidth-tablet (width <= 980px);
+@custom-media --maxwidth-phone (width <= 635px);
