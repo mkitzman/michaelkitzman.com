@@ -14,7 +14,7 @@
 
     /* Type scale */
     --font-size-up-1: media(
-    c   alc(1em * var(--ratio-for-small-screen)),
+        calc(1em * var(--ratio-for-small-screen)),
         (min-width: var(--min-large-screen)) calc(1em * var(--ratio-for-large-screen))
     );
 
