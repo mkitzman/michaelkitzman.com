@@ -5,28 +5,3 @@ html {
     line-height: var(--base-line-height);
     letter-spacing: var(--base-letter-spacing);
 }
-
-h1 {
-    font-family: 'Lato';
-    font-size: var(--font-size-up-3);
-    font-weight: 400;
-}
-
-h2 {
-    font-family: 'Lato';
-    font-size: var(--font-size-up-2);
-    font-weight: 700;
-}
-
-p {
-    font-size: 18px;
-    line-height: 1.6;
-    font-weight: 400;
-    opacity: .7;
-    letter-spacing: -0.3px;
-    word-spacing: -0.1px;
-}
-
-.app {
-    display: grid;
-}

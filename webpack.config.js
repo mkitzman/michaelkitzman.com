@@ -12,7 +12,7 @@ const plugins = [
     new StyleLintPlugin({
         files: '**/styles/*.css',
         configFile: '.stylelintrc',
-        failOnError: true,
+        failOnError: false,
         emitErrors: true,
         quiet: false
     })
@@ -24,6 +24,7 @@ module.exports = {
         extensions: ['.webpack.js', '.web.js', '.js', '.es6.js', '.css'],
         modules: ['node_modules', './src/']
     },
+    devtool: 'eval-source-map',
     module: {
         loaders: [
             {
