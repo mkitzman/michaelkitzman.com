@@ -7,9 +7,9 @@ const Home = () => (
             I’m a Principal Front-end/UI Developer at Oracle.
         </p>
         <p  className={'Home-hero-description'}>
-            I'm passionate about UX, Accessibility and inclusive
-            design, UI Interactions, semantic markup, CSS Architecture at
-            scale and performance
+            I'm passionate about building websites, CSS Architecture at
+            scale, UX, Accessibility and inclusive design, UI Interactions, 
+            semantic markup, and performance.
         </p>
     </div>
 );

@@ -13,13 +13,12 @@ import A11y from 'components/A11y';
 import Contact from 'components/Contact';
 
 
-const Fragment = React.Fragment;
-
 export default function App() {
     return (
         <BrowserRouter>
-            <Fragment>
+            <div className={'App-grid'}>
                 <Header />
+                <aside></aside>
                 <main>
                     <article>
                         <Switch>
@@ -32,8 +31,9 @@ export default function App() {
                         </Switch>
                     </article>
                 </main>
+                <aside></aside>
                 <Footer />
-            </Fragment>
+            </div>
         </BrowserRouter>
     );
 };
