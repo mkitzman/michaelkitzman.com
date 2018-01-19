@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => (
     <div>
-        <h1 className={'page-title'}>About</h1>
+        <h2 className={'App-page-title'}>About</h2>
     </div>
 );
 

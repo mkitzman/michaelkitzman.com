@@ -2,7 +2,7 @@ import React from 'react';
 
 const Work = () => (
     <div>
-        <h1 className={'page-title'}>Work</h1>
+        <h2 className={'App-page-title'}>Work</h2>
     </div>
 );
 

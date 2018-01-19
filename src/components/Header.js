@@ -4,8 +4,10 @@ import {Link} from 'react-router-dom';
 const Header = () => (
     <header className={'Header'}>
         <nav className={'Header-nav'}>
+            <h1 className={'Header-logo'}>
+                Michael Kitzman
+            </h1>
             <ul>
-                <li className={'Header-nav-item'}><Link to="/">Michael Kitzman</Link></li>
                 <li className={'Header-nav-item'}><Link to="/">Home</Link></li>
                 <li className={'Header-nav-item'}><Link to="/about">About</Link></li>
                 <li className={'Header-nav-item'}><Link to="/work">Work</Link></li>

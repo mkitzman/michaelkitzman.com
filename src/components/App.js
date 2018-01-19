@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { Route, Switch, HashRouter } from 'react-router-dom';
 
 import Header from 'components/Header';
 import Footer from 'components/Footer';
@@ -15,7 +15,7 @@ import Contact from 'components/Contact';
 
 export default function App() {
     return (
-        <BrowserRouter>
+        <HashRouter>
             <div className={'App-grid'}>
                 <Header />
                 <aside></aside>
@@ -34,6 +34,6 @@ export default function App() {
                 <aside></aside>
                 <Footer />
             </div>
-        </BrowserRouter>
+        </HashRouter>
     );
 };

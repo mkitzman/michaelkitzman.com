@@ -1,4 +1,13 @@
 :root {
+    /* Colors */
+    --black: #000000;
+    --white: #FFFFFF;
+
+    --color-base-font: hsla(0, 0%, 0%, 0.8);
+    --color-dark: var(--black);
+    --color-light: var(--white);
+    --color-header-gradient: linear-gradient(45deg, #F40BA0 0%, #A508F4 100%);
+
     /* Break Points */
    --min-small-screen: 36em;
    --min-large-screen: 48em;
@@ -10,29 +19,8 @@
     --base-font-size: 100%; /* 16px */
     --base-line-height: 1.5;
     --base-letter-spacing: 1px;
-    --base-font-color: hsla(0, 0%, 0%, 0.8);
-
-    /* Type scale */
-    --font-size-up-1: media(
-        calc(1em * var(--ratio-for-small-screen)),
-        (min-width: var(--min-large-screen)) calc(1em * var(--ratio-for-large-screen))
-    );
-
-    --font-size-up-2: media(
-        calc(1em * var(--ratio-for-small-screen) * var(--ratio-for-small-screen)),
-        (min-width: var(--min-large-screen)) calc(1em * var(--ratio-for-large-screen) * var(--ratio-for-large-screen))
-    );
-
-    --font-size-up-3: media(
-        calc(1em * var(--ratio-for-small-screen) * var(--ratio-for-small-screen) * var(--ratio-for-small-screen)),
-        (min-width: var(--min-large-screen)) calc(1em * var(--ratio-for-large-screen) * var(--ratio-for-large-screen) * var(--ratio-for-large-screen))
-    );
-
-    --font-size-down-1: media(
-        calc(v1em / var(--ratio-for-small-screen)),
-        (min-width: var(--min-large-screen)) calc(1em / var(--ratio-for-large-screen))
-    );
-
+    --font-page-title: 44px;
+    --font-page-title-letter-spacing: 1.2;
 
 }
 

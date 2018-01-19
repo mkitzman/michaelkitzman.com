@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = () => (
     <div>
-        <h1 className={'page-title'}>Contact</h1>
+        <h2 className={'App-page-title'}>Contact</h2>
     </div>
 );
 

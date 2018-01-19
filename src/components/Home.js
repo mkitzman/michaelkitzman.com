@@ -2,7 +2,9 @@ import React from 'react';
 
 const Home = () => (
     <div className={'Home-hero'}>
-        <h1 className={'page-title'}>Hi, I'm Mike Kitzman</h1>
+        <h2 className={'App-page-title'}>
+            Hi, I'm Mike Kitzman
+        </h2>
         <p  className={'Home-hero-description'}>
             I’m a Principal Front-end/UI Developer at Oracle.
         </p>

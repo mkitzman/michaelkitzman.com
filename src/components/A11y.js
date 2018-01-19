@@ -2,7 +2,7 @@ import React from 'react';
 
 const A11y = () => (
     <div>
-        <h1 className={'page-title'}>A11y</h1>
+        <h2 className={'App-page-title'}>A11y</h2>
     </div>
 );
 

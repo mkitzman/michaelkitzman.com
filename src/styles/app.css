@@ -1,6 +1,6 @@
 html {
     font-family: 'Karla';
-    color: var(--base-font-color);
+    color: var(--color-base-font);
     font-size: var(--base-font-size);
     line-height: var(--base-line-height);
     letter-spacing: var(--base-letter-spacing);
@@ -8,14 +8,6 @@ html {
 
 article {
     margin: 100px 0;
-}
-
-h1 {
-    font-family: 'Lato';
-    font-size: 44px;
-    line-height: 1.2;
-    font-weight: 900;
-    margin-bottom: 10px;
 }
 
 .App-grid {
@@ -29,4 +21,12 @@ h1 {
 
 header, footer {
   grid-column: 1 / 4;
+}
+
+.App-page-title {
+    font-family: 'Lato';
+    font-size: var(--font-page-title);
+    line-height: var(--font-page-title-letter-spacing);
+    font-weight: 900;
+    margin-bottom: 10px;
 }
