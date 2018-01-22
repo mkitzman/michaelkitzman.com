@@ -6,10 +6,6 @@ html {
     letter-spacing: var(--base-letter-spacing);
 }
 
-article {
-    margin: 100px 0;
-}
-
 .App-grid {
     display: grid;
     width: 100%;
@@ -21,6 +17,10 @@ article {
 
 header, footer {
   grid-column: 1 / 4;
+}
+
+article {
+    margin: 100px 0;
 }
 
 .App-page-title {

@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Home = () => (
-    <div className={'Home-hero'}>
+    <React.Fragment>
         <h2 className={'App-page-title'}>
             Hi, I'm Mike Kitzman
         </h2>
@@ -13,7 +13,7 @@ const Home = () => (
             scale, UX, Accessibility and inclusive design, UI Interactions, 
             semantic markup, and performance.
         </p>
-    </div>
+    </React.Fragment>
 );
 
 export default Home;
