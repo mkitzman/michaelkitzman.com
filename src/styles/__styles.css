@@ -3,7 +3,7 @@ This file contains all the CSS you wanted minified and bundled.
 */
 @import "_constants.css";
 @import "_reset.css";
-@import "App.css";
-@import "Header.css";
-@import "Home.css";
-@import "Footer.css";
+@import "app.css";
+@import "header.css";
+@import "home.css";
+@import "footer.css";
