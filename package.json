@@ -1,7 +1,7 @@
 {
   "name": "michaelkitzman.com",
   "version": "1.0.0",
-  "description": "personal site",
+  "description": "Personal site for Michael Kitzman",
   "main": "index.js",
   "scripts": {
     "build": "webpack",

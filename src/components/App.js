@@ -12,7 +12,6 @@ import Stats from 'components/Stats';
 import A11y from 'components/A11y';
 import Contact from 'components/Contact';
 
-
 export default function App() {
     return (
         <HashRouter>

@@ -6,7 +6,8 @@ const plugins = [
     new HTMLWebpackPlugin({
         template: __dirname + '/src/index.html',
         filename: 'index.html',
-        inject: 'body'
+        inject: 'body',
+        favicon: './src/images/favicon.ico'
     }),
     new ExtractTextPlugin('bundle.css'),
     new StyleLintPlugin({
@@ -50,14 +51,14 @@ module.exports = {
                 })
             },
             {
-                test: /\.(png|jp(e*)g|svg)$/,  
+                test: /\.(png|jp(e*)g||\.ico$|svg)$/,  
                 use: ['file-loader?name=images/[name].[ext]']
             }
         ]
     },
     output: {
         filename: 'app.js',
-        path: __dirname + '/build'
+        path: __dirname + '/public'
     },
     plugins: plugins
 };
