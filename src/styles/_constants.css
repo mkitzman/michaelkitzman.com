@@ -1,11 +1,13 @@
 :root {
     /* Colors */
     --black: #000000;
+    --dodgerBlue: #1E90FF;
     --white: #FFFFFF;
 
     --color-base-font: hsla(0, 0%, 0%, 0.8);
     --color-dark: var(--black);
     --color-light: var(--white);
+    --color-default-link: var(--dodgerBlue);
     --color-header-gradient: linear-gradient(45deg, #F40BA0 0%, #A508F4 100%);
 
     /* Break Points */

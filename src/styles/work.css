@@ -1,0 +1,8 @@
+.Work-tech-stack-list-item {
+    display: inline-block;
+    margin-right: 10px;
+
+    &:not(:last-child)::after {
+        content: ',';
+    }
+}

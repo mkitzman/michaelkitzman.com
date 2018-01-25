@@ -6,6 +6,16 @@ html {
     letter-spacing: var(--base-letter-spacing);
 }
 
+a {
+    color: var(--color-default-link);
+
+    &:hover,
+    &:focus {
+        text-decoration: underline;
+    }
+}
+
+
 .App-grid {
     display: grid;
     width: 100%;
@@ -29,4 +39,40 @@ article {
     line-height: var(--font-page-title-letter-spacing);
     font-weight: 900;
     margin-bottom: 10px;
+}
+
+.App-fancy-anchor-TEST {
+    position: relative;
+    transition: all .2s ease-out;
+    color: var(-color-dark);
+
+    &::before {
+        content: "";
+        width: 50%;
+        height: 50%;
+        background-color: var(--color-default-link);
+        position: absolute;
+        top: 10%;
+        left: 0;
+        opacity: .5;
+    }
+
+    &::after {
+        content: "";
+        width: 50%;
+        height: 50%;
+        background-color: var(--color-default-link);
+        position: absolute;
+        top: -10%;
+        right: 0;
+        opacity: .5;
+    }
+
+    &:focus,
+    &:hover {
+        &::after,
+        &::before {
+            top: 0;
+        }
+    }
 }

@@ -6,3 +6,12 @@
     word-spacing: -0.1px;
     margin-bottom: 25px;
 }
+
+.Home-tech-stack-list-item {
+    display: inline-block;
+    margin-right: 10px;
+
+    &:not(:last-child)::after {
+        content: ',';
+    }
+}
