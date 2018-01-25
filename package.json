@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server",
+    "bstart": "webpack; webpack-dev-server"
   },
   "author": "Michael Kitzman",
   "license": "ISC",
