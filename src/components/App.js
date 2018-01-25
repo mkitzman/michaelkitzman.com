@@ -1,16 +1,16 @@
 import React from 'react';
 import { Route, Switch, HashRouter } from 'react-router-dom';
 
-import Header from 'components/header';
-import Footer from 'components/footer';
+import Header from 'components/Header';
+import Footer from 'components/Footer';
 
 //Pages
-import Home from 'components/home';
-import About from 'components/about';
-import Work from 'components/work';
-import Stats from 'components/stats';
-import A11y from 'components/a11y';
-import Contact from 'components/contact';
+import Home from 'components/Home';
+import About from 'components/About';
+import Work from 'components/Work';
+import Stats from 'components/Stats';
+import A11y from 'components/A11y';
+import Contact from 'components/Contact';
 
 export default function App() {
     return (
