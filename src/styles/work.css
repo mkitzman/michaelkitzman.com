@@ -1,6 +1,12 @@
+.Work-tech-stack-list {
+    margin-bottom: 40px;
+}
+
 .Work-tech-stack-list-item {
     display: inline-block;
     margin-right: 10px;
+    font-size: 23px;
+    line-height: 1.6;
 
     &:not(:last-child)::after {
         content: ',';

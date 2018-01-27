@@ -10,7 +10,7 @@ const A11y = () => (
 
         <h3>Why?</h3>
         <p>
-            Accessibility is an essential part of an inclusive user experience. As web devs by commiting
+            Accessibility is an essential part of an inclus vc ive user experience. As web devs by commiting
             to creating an accessible site we are ensuring that our product is operable by a wide range of 
             users with varying abilities. Disabilities can range from being blind, cognitive, motor impared to
             users that may be recovering from eye surgery, have a broken mouse or possibly  holding a baby in one 
