@@ -75,14 +75,14 @@ h3 {
         left: 46%;
         opacity: .8;
         transform: translateY(4px);
-        background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+        background-image: linear-gradient(to right, #4FACFE 0%, #00F2FE 100%);
     }
 
     &::before {
         left: 0%;
         opacity: .5;
         transform: translateY(-4px);
-        background-image: linear-gradient(to right, #00f2fe 0%, #4facfe 100%);
+        background-image: linear-gradient(to right, #00F2FE 0%, #4FACFE 100%);
     }
 
     &:focus,
