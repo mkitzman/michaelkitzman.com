@@ -20,7 +20,7 @@ const Home = () => (
         </p>
 
         <p>
-            <Link className={'App-fancy-anchor'} to="/about">Learn more about me</Link>.
+            <Link className={'App-fancy-anchor'} to="/about">Learn more about me</Link>
         </p>
     </React.Fragment>
 );

@@ -20,6 +20,11 @@
 
     & a {
         color: var(--color-dark);
+
+        &:hover,
+        &:focus {
+            text-decoration: underline;
+        }
     }
 }
 
