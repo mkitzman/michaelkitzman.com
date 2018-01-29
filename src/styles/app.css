@@ -19,7 +19,8 @@ p {
     margin-bottom: 25px;
 }
 
-header, footer {
+header,
+footer {
   grid-column: 1 / 4;
 }
 
@@ -27,7 +28,8 @@ article {
     margin: 100px 0;
 }
 
-h2, h3 {
+h2,
+h3 {
     font-family: 'Lato';
     font-weight: 900;
     margin-bottom: 10px;

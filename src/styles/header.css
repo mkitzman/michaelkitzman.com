@@ -17,14 +17,14 @@
 .Header-nav-item {
     display: inline-block;
     margin-right: 5px;
+}
 
-    & a {
-        color: var(--color-dark);
+.Header-nav-item-link {
+    color: var(--color-dark);
 
-        &:hover,
-        &:focus {
-            text-decoration: underline;
-        }
+    &:hover,
+    &:focus {
+        text-decoration: underline;
     }
 }
 

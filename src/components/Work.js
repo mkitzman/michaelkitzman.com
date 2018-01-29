@@ -15,7 +15,9 @@ const Work = () => (
         <h3>Full skill set</h3>
         <ul className={'Work-skills-list'}>
             <li className={'Work-skills-list-item'}>
-                <h4>JavaScript Ecosystem</h4>
+                <h4 className={'Work-skills-list-col-header'}>
+                    JavaScript Ecosystem
+                </h4>
                 <ul className={'Work-skills-list-col-list'}>
                     <li>React</li>
                     <li>TypeScript</li>
@@ -29,7 +31,9 @@ const Work = () => (
                 </ul>
             </li>
             <li className={'Work-skills-list-item'}>
-                <h4>User Interface</h4>
+                <h4 className={'Work-skills-list-col-header'}>
+                    User Interface
+                </h4>
                 <ul className={'Work-skills-list-col-list'}>
                     <li>HTML</li>
                     <li>CSS3 (PostCSS, SCSS, LESS)</li>
@@ -43,7 +47,9 @@ const Work = () => (
                 </ul>
             </li>
             <li className={'Work-skills-list-item'}>
-                <h4>Additional</h4>
+                <h4 className={'Work-skills-list-col-header'}>
+                    Additional
+                </h4>
                 <ul className={'Work-skills-list-col-list'}>
                     <li>Restful APIs</li>
                     <li>PHP</li>
@@ -54,8 +60,12 @@ const Work = () => (
         </ul>
 
         <section className={'Work-history'}>
-            <h3>Oracle (acquired AddThis) - Principle Front End Engineer</h3>
-            <h4>March 2015 - Present / 3 years</h4>
+            <h3 className={'Work-history-title'}>
+                Oracle (acquired AddThis) - Principle Front End Engineer
+            </h3>
+            <h4 className={'Work-history-sub-title'}>
+                March 2015 - Present / 3 years
+            </h4>
             <p>
                 My current role at Oracle I am responsible for front end architecture of a 
                 new product being built using React/Redux/Typscript/PostCSS. I work closely
@@ -65,8 +75,12 @@ const Work = () => (
                 of performance and how to not mess up the customer's page. I'm the go to expert on 
                 the team for CSS/SCSS, HTML and Accessibility.
             </p>
-            <h3>Yahoo - Front End Engineer</h3>
-            <h4>May 2007 - March 2015 / 8 Years</h4>
+            <h3 className={'Work-history-title'}>
+                Yahoo - Front End Engineer
+            </h3>
+            <h4 className={'Work-history-sub-title'}>
+                May 2007 - March 2015 / 8 Years
+            </h4>
             <p>
                 At Yahoo I help build the number one Fantasy Sports website on the Internet. 
                 I create amazing user focused products with PHP, HTML, JavaScript and CSS, web 
@@ -76,8 +90,13 @@ const Work = () => (
                 onboard new hires, mentor interns, lead user studies and work with product to come up 
                 with and implement features. 
             </p>
-            <h3>RealtyTrac - Lead Web Developer</h3>
-            <h4>February 2006 - May 2007 / 1 year 4 months</h4>
+
+            <h3 className={'Work-history-title'}>
+                RealtyTrac - Lead Web Developer
+            </h3>
+            <h4 className={'Work-history-sub-title'}>
+                February 2006 - May 2007 / 1 year 4 months
+            </h4>
             <p>
                 Lead developer and manager of a group responsible for the front-end of Realtytrac.com.
                 I developed code using ASP, HTML, CSS and JavaScript. I spearheaded RealtyTrac's movement
@@ -85,8 +104,12 @@ const Work = () => (
                 sure that all front-end tasks related to the RealtyTrac.com website, intranet and email
                 campaigns were scheduled and completed on time by my team or me.
             </p>
-            <h3>Autobytel - Lead Web Developer</h3>
-            <h4>November 1997 - September 2005 / 8 Years</h4>
+            <h3 className={'Work-history-title'}>
+                Autobytel - Lead Web Developer
+            </h3>
+            <h4 className={'Work-history-sub-title'}>
+                November 1997 - September 2005 / 8 Years
+            </h4>
             <p>
                 In this position I was lead developer and manager of a group of web developers responsible 
                 for the front and backend of Autobytel.com. In addition to working on the code I was also 

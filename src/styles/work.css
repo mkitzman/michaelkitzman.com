@@ -18,15 +18,15 @@
     align-items: left;
     justify-content: space-between;
     margin-bottom: 40px;
+}
 
-    & h4 {
-        font-weight: 800;
-        text-transform: uppercase;
-        opacity: .9;
-        letter-spacing: 2px;
-        font-size: 13px;
-        border-bottom: 1px solid #7E7C7C;
-    }
+.Work-skills-list-col-header {
+    font-weight: 800;
+    text-transform: uppercase;
+    opacity: .9;
+    letter-spacing: 2px;
+    font-size: 13px;
+    border-bottom: 1px solid #7E7C7C;
 }
 
 .Work-skills-list-col-list {
@@ -45,14 +45,11 @@
     }
 }
 
-.Work-history {
+.Work-history-title {
+    margin-bottom: 0;
+}
 
-    & h3 {
-        margin-bottom: 0;
-    }
-
-    & h4 {
-        margin-bottom: 10px;
-        opacity: .8;
-    }
+.Work-history-sub-title {
+    margin-bottom: 10px;
+    opacity: .8;
 }
