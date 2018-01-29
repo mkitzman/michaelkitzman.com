@@ -18,43 +18,43 @@ const Work = () => (
                 <h4 className={'Work-skills-list-col-header'}>
                     JavaScript Ecosystem
                 </h4>
-                <ul className={'Work-skills-list-col-list'}>
-                    <li>React</li>
-                    <li>TypeScript</li>
-                    <li>Redux, Flux</li>
-                    <li>Immutable.js</li>
-                    <li>Node.js, Express</li>
-                    <li>NPM, Yarn, Git</li>
-                    <li>Webpack, Grunt, Gulp</li>
-                    <li>Mustache</li>
-                    <li>Jasmine, Mocha, Chai</li>                   
+                <ul>
+                    <li className={'Work-skills-list-col-list-item'}>React</li>
+                    <li className={'Work-skills-list-col-list-item'}>TypeScript</li>
+                    <li className={'Work-skills-list-col-list-item'}>Redux, Flux</li>
+                    <li className={'Work-skills-list-col-list-item'}>Immutable.js</li>
+                    <li className={'Work-skills-list-col-list-item'}>Node.js, Express</li>
+                    <li className={'Work-skills-list-col-list-item'}>NPM, Yarn, Git</li>
+                    <li className={'Work-skills-list-col-list-item'}>Webpack, Grunt, Gulp</li>
+                    <li className={'Work-skills-list-col-list-item'}>Mustache</li>
+                    <li className={'Work-skills-list-col-list-item'}>Jasmine, Mocha, Chai</li>                   
                 </ul>
             </li>
             <li className={'Work-skills-list-item'}>
                 <h4 className={'Work-skills-list-col-header'}>
                     User Interface
                 </h4>
-                <ul className={'Work-skills-list-col-list'}>
-                    <li>HTML</li>
-                    <li>CSS3 (PostCSS, SCSS, LESS)</li>
-                    <li>Performance</li>
-                    <li>Responsive & Adaptive Web Design</li>
-                    <li>Semantic Markup</li>
-                    <li>Coding Standards</li>
-                    <li>Cross Browser Compatibility</li>
-                    <li>UX principles and accessibility</li>
-                    <li>Photoshop, Adobe Illustrator</li>
+                <ul>
+                    <li className={'Work-skills-list-col-list-item'}>HTML</li>
+                    <li className={'Work-skills-list-col-list-item'}>CSS3 (PostCSS, SCSS, LESS)</li>
+                    <li className={'Work-skills-list-col-list-item'}>Performance</li>
+                    <li className={'Work-skills-list-col-list-item'}>Responsive & Adaptive Web Design</li>
+                    <li className={'Work-skills-list-col-list-item'}>Semantic Markup</li>
+                    <li className={'Work-skills-list-col-list-item'}>Coding Standards</li>
+                    <li className={'Work-skills-list-col-list-item'}>Cross Browser Compatibility</li>
+                    <li className={'Work-skills-list-col-list-item'}>UX principles and accessibility</li>
+                    <li className={'Work-skills-list-col-list-item'}>Photoshop, Adobe Illustrator</li>
                 </ul>
             </li>
             <li className={'Work-skills-list-item'}>
                 <h4 className={'Work-skills-list-col-header'}>
                     Additional
                 </h4>
-                <ul className={'Work-skills-list-col-list'}>
-                    <li>Restful APIs</li>
-                    <li>PHP</li>
-                    <li>CLI, Linux</li>
-                    <li>Agile, Kanban, Scrum</li>
+                <ul>
+                    <li className={'Work-skills-list-col-list-item'}>Restful APIs</li>
+                    <li className={'Work-skills-list-col-list-item'}>PHP</li>
+                    <li className={'Work-skills-list-col-list-item'}>CLI, Linux</li>
+                    <li className={'Work-skills-list-col-list-item'}>Agile, Kanban, Scrum</li>
                 </ul>
             </li>
         </ul>

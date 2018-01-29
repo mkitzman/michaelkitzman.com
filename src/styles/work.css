@@ -29,21 +29,19 @@
     border-bottom: 1px solid #7E7C7C;
 }
 
-.Work-skills-list-col-list {
+.Work-skills-list-col-list-item {
+    margin: 10px 0;
 
-    & li {
-        margin: 10px 0;
-
-        &::before {
-            content: '\2713';
-            margin-right: 5px;
-            opacity: .8;
-            border: 1px solid #DFDFDF;
-            padding: 0 3px;
-            font-size: 12px;
-        }
+    &::before {
+        content: '\2713';
+        margin-right: 5px;
+        opacity: .8;
+        border: 1px solid #DFDFDF;
+        padding: 0 3px;
+        font-size: 12px;
     }
 }
+
 
 .Work-history-title {
     margin-bottom: 0;

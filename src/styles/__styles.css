@@ -5,6 +5,6 @@ This file contains all the CSS you wanted minified and bundled.
 @import "_reset.css";
 @import "app.css";
 @import "header.css";
+@import "footer.css";
 @import "home.css";
 @import "work.css";
-@import "footer.css";
