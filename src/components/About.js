@@ -4,7 +4,7 @@ const About = () => (
     <React.Fragment>
         <h2>About</h2>
         <p>
-            I'm a Front-End Engineer with over 20 years of experience building web sites that have 
+            I&apos;m a Front-End Engineer with over 20 years of experience building web sites that have 
             been viewed by billions of people. I primarily work with HTML, CSS and JavaScript.
         </p>
         <p>
