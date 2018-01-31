@@ -1,71 +1,29 @@
-.Contact-field-set {
-    border: none;
+.Contact-list {
+    width: 50%;
+    margin: auto;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
 }
 
-.Contact-list-item {
-    margin-bottom: 20px;
-}
-
-.Contact-label {
-    font-weight: 800;
-    font-size: 18px;
-    display: block;
-    margin-bottom: 5px;
-}
-
-.Contact-text-input {
-    height: 50px;
-    padding: 0 0 0 20px;
-}
-
-.Contact-text-area {
-    height: 200px;
-    padding: 10px;
-}
-
-.Contact-text-input,
-.Contact-text-area {
-    width: 60%;
-    font-size: 20px;
-    border: 1px solid #D0D0D0;
-
-    &:focus,
-    &:hover {
-        outline: none;
-        border-color: #0EEF5A;
-    }
-}
-
-.Contact-submit {
-    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
-    background-size: 400% 400%;
-    padding: 10px 0;
-    width: 200px;
-    border-radius: 8px;
-    border: none;
-    font-size: 20px;
-    color: var(--color-light);
-	animation: Gradient 8s ease infinite;
+.Contact-icon {
+    width: 60px;
     transition: all .2s ease-in;
-
-    &:focus,
-    &:hover {
-        font-weight: 600;
-        animation-play-state: paused;
-        cursor: pointer;
-        letter-spacing: 2px;
-    }
+    fill: #000000;
 }
 
+.Contact-link {
+    &:hover,
+    &:focus {
+        outline: none;
+        text-decoration: none;
 
-@keyframes Gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+        & .Contact-icon-email {fill: #269539;}
+        & .Contact-icon-gmail {fill: #D14836;}
+        & .Contact-icon-outlook {fill: #0072C6;}
+        & .Contact-icon-yahoo {fill: #440099;}
+        & .Contact-icon-twitter {fill: #1DA1F2;}
+        & .Contact-icon-github {fill: #C8C9CB;}
+        & .Contact-icon-apple {fill: #999999;}
+    }
 }
