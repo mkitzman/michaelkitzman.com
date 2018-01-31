@@ -4,7 +4,7 @@ const Contact = () => (
     <React.Fragment>
         <h2>Contact</h2>
         <fieldset className={'Contact-field-set'}>
-            <p>Fill out the form below and I'll get back to you as soon as I can</p>
+            <p>Fill out the form below and I&apos;ll get back to you as soon as I can</p>
             <ul>
                 <li className={'Contact-list-item'}>
                     <label for={'name'} className={'Contact-label'}>
