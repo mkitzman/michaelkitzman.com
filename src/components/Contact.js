@@ -4,7 +4,7 @@ const emailAddress = 'mkitzman@gmail.com';
 const Contact = () => (
     <React.Fragment>
         <h2>Contact</h2>
-        <p>If you want to reach out with questions or just want to say hi here are your options</p>
+        <p>If you want to reach out to say Hi I'm pretty easy to find, pick an option.</p>
         <ul className={'Contact-list'}>
             <li className={'Contact-list-item'}>
                 <a className={'Contact-link'} href={`mailto:${emailAddress}`}>
