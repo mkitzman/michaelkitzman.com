@@ -1,4 +1,5 @@
 .Footer {
+    position: relative;
     padding: 0 20px;
     font-size: 14px;
 }
@@ -11,4 +12,36 @@
 
 .Footer-logo {
     width: 50px;
+}
+
+.Footer-contact-form-trigger {
+    border: none;
+    cursor: pointer;
+}
+
+.Footer-contact-form {
+    position: absolute;
+    left: 0;
+    transform: translateY(-120px);
+    z-index: 2;
+    box-shadow: 1px 1px 10px #DDDDDD;
+    padding: 40px;
+    background-color: #FFFFFF;
+    width: 100%;
+    animation: contactSlideUp .2s ease-in;
+}
+
+.Footer-contact-form-close {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    border: 1px solid #666666;
+    border-radius: 50%;
+}
+
+@keyframes contactSlideUp {
+  0%   { transform: translateY(0px); }
+  100% { transform: translateY(-120px); }
 }
