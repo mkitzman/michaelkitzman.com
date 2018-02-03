@@ -15,7 +15,7 @@ const Home = () => (
             semantic markup, and performance.
         </p>
         <p>
-            I am a Front-End Engineer with over 15 years of experience building web sites that have been 
+            I'm a Front-End Engineer with over 15 years of experience building web sites that have been 
             viewed by <strong>billions of people</strong>.
         </p>
 
