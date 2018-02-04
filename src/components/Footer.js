@@ -65,7 +65,7 @@ class Footer extends React.Component {
                     <li><img className={'Footer-logo'} src={hopstermikelogo} alt={'hopster mike logo'} /></li>
                     <li>
                         <button
-                            className={'Footer-contact-form-trigger'}
+                            className={'Footer-contact-form-trigger App-animated-anchor'}
                             onClick={this.mountTrap}
                         >
                             Contact Me
