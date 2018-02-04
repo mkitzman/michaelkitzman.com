@@ -8,7 +8,7 @@
     --color-dark: var(--black);
     --color-light: var(--white);
     --color-default-link: var(--dodgerBlue);
-    --color-header-gradient: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+    --color-header-gradient: linear-gradient(to right, #00DBDE 0%, #FC00FF 100%);
 
     /* Break Points */
    --min-small-screen: 36em;

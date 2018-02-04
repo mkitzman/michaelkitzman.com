@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 const Header = () => (
     <header className={'Header'}>
         <nav className={'Header-nav'}>
-            <Link to="/">
+            <Link to="/" className={'Header-logo-link'}>
                 <h1 className={'Header-logo'}>
                     <span className={'Header-logo-text'} aria-hidden={true}>MK</span>
                     <span className={'visually-hidden'}>Michael Kitzman</span>
