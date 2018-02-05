@@ -1,9 +1,28 @@
-.Contact-list {
+.Contact {
+    display: flex;
+    justify-content: center;
+}
+
+.Contact-container-start,
+.Contact-container-end {
     width: 50%;
+    max-width: 400px;
+    padding: 0 20px;
+}
+
+.Contact-container-header {
+    font-size: 17px;
+    margin: 0 0 20px 0;
+}
+
+.Contact-list {
     margin: auto;
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
+    justify-content: flex-start;
+}
+
+.Contact-list-item:not(last-child) {
+    margin-right: 20px;
 }
 
 .Contact-icon {

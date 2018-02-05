@@ -14,15 +14,17 @@
     width: 50px;
 }
 
-.Footer-contact-form-trigger {
+.Footer-contact-trigger {
     border: none;
     cursor: pointer;
 }
 
-.Footer-contact-form {
-    position: absolute;
+.Footer-contact {
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
     left: 0;
-    transform: translateY(-120px);
+    transform: translateY(0px);
     z-index: 2;
     box-shadow: 1px 1px 10px #DDDDDD;
     padding: 40px;
@@ -31,7 +33,7 @@
     animation: contactSlideUp .2s ease-in;
 }
 
-.Footer-contact-form-close {
+.Footer-contact-close {
     position: absolute;
     right: 20px;
     top: 20px;
@@ -42,6 +44,6 @@
 }
 
 @keyframes contactSlideUp {
-  0%   { transform: translateY(0px); }
-  100% { transform: translateY(-120px); }
+  0%   { transform: translateY(120px); }
+  100% { transform: translateY(0px); }
 }

@@ -40,10 +40,10 @@ class Footer extends React.Component {
                     onDeactivate: this.unmountTrap
                 }}
             >
-                <div className={'Footer-contact-form'}>
+                <div className={'Footer-contact'}>
                     <Contact />
                     <button
-                        className={'Footer-contact-form-close'}
+                        className={'Footer-contact-close'}
                         onClick={this.unmountTrap}
                     >
                         <span aria-hidden={true}>X</span>
@@ -65,10 +65,10 @@ class Footer extends React.Component {
                     <li><img className={'Footer-logo'} src={hopstermikelogo} alt={'hopster mike logo'} /></li>
                     <li>
                         <button
-                            className={'Footer-contact-form-trigger App-animated-anchor'}
+                            className={'Footer-contact-trigger App-animated-anchor'}
                             onClick={this.mountTrap}
                         >
-                            Contact Me
+                            Say Hello!
                         </button>
                     </li>
                 </ul>
