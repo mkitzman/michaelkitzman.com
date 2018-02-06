@@ -1,0 +1,10 @@
+.About-content {
+    width: 80%;
+}
+
+.About-profile-photo {
+    width: 250px;
+    border-radius: 50%;
+    float: right;
+    shape-outside: circle(50%);
+}
