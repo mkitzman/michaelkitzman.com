@@ -4,7 +4,7 @@ const emailAddress = 'mkitzman@gmail.com';
 const Contact = () => (
     <React.Fragment>
         <div className={'Contact'}>
-            <div className={'Contact-container-start'}>
+            <div>
                 <h6 className={'Contact-container-header'}>Email: mkitzman@gmail.com</h6>
                 <ul className={'Contact-list'}>
                     <li className={'Contact-list-item'}>
@@ -79,7 +79,7 @@ const Contact = () => (
                     </li>            
                 </ul>
             </div>
-            <div className={'Contact-container-end'}>
+            <div>
                 <h6 className={'Contact-container-header'}>Follow</h6>
                 <ul className={'Contact-list'}>  
                     <li className={'Contact-list-item'}>

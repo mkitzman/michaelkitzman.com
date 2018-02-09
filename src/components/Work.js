@@ -25,7 +25,7 @@ const Work = () => (
                     <li className={'Work-skills-list-col-list-item'}>Immutable.js</li>
                     <li className={'Work-skills-list-col-list-item'}>Node.js, Express</li>
                     <li className={'Work-skills-list-col-list-item'}>NPM, Yarn, Git</li>
-                    <li className={'Work-skills-list-col-list-item'}>Webpack, Grunt, Gulp</li>
+                    <li className={'Work-skills-list-col-list-item'}>Babel, Webpack, Grunt, Gulp</li>
                     <li className={'Work-skills-list-col-list-item'}>Mustache</li>
                     <li className={'Work-skills-list-col-list-item'}>Jasmine, Mocha, Chai</li>                   
                 </ul>

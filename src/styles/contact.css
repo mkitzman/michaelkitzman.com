@@ -1,13 +1,9 @@
 .Contact {
-    display: flex;
-    justify-content: center;
-}
-
-.Contact-container-start,
-.Contact-container-end {
-    width: 50%;
-    max-width: 400px;
-    padding: 0 20px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 60%;
+    margin: auto;
+    grid-gap: 20px;
 }
 
 .Contact-container-header {

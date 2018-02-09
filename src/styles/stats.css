@@ -1,0 +1,6 @@
+.Stats-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px 0;
+    max-width: 700px;
+}
