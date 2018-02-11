@@ -2,7 +2,7 @@ import React from 'react';
 
 const Stats = () => (
     <div className={'App-page-content-fadein'}>
-        <h2>Stats</h2>
+        <h2>Website Stats</h2>
         <p>This site is built using React, Webpack, Babel and PostCSS. For linting I use Stylelint for CSS and and eslint for JavaScript. Font face is Karla and Lato.</p>
         <p>Hosted on Netlify, using a JAM stack and continuous deployment.</p>
         <dl className={'Stats-list'}>
