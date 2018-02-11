@@ -2,7 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 
 const Home = () => (
-    <React.Fragment>
+    <div className={'App-page-content-fadein'}>
         <h2>
             Hi, I'm Mike Kitzman
         </h2>
@@ -22,7 +22,7 @@ const Home = () => (
         <p>
             <Link className={'App-fancy-anchor'} to="/about">Learn more about me</Link>
         </p>
-    </React.Fragment>
+    </div>
 );
 
 export default Home;

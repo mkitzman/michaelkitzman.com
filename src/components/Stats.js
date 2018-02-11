@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Stats = () => (
-    <React.Fragment>
+    <div className={'App-page-content-fadein'}>
         <h2>Stats</h2>
         <p>This site is built using React, Webpack, Babel and PostCSS. For linting I use Stylelint for CSS and and eslint for JavaScript. Font face is Karla and Lato.</p>
         <p>Hosted on Netlify, using a JAM stack and continuous deployment.</p>
@@ -13,7 +13,7 @@ const Stats = () => (
             <dt>Google Page Speed/Optimization Mobile: </dt><dd>NA/100</dd>
             <dt>Google Page Speed/Optimization Desktop: </dt><dd>NA/100</dd>
         </dl>
-    </React.Fragment>
+    </div>
 );
 
 export default Stats;

@@ -1,7 +1,7 @@
 import React from 'react';
 
 const A11y = () => (
-    <React.Fragment>
+    <div className={'App-page-content-fadein'}>
         <h2>A11y</h2>
         <p>
             As a Front End Developer its my job and goal to build a website that is usable for 
@@ -28,7 +28,7 @@ const A11y = () => (
             If you find and issues with my site’s accessibility please <a href="https://github.com/mkitzman/michaelkitzman.com/issues">submit it as a Github issue</a> and I will work to fix as quick as possible.
         </p>
 
-    </React.Fragment>
+    </div>
 );
 
 export default A11y;

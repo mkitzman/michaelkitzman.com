@@ -2,7 +2,7 @@ import React from 'react';
 import profilephoto from '../images/mikekitzman.jpg';
 
 const About = () => (
-    <React.Fragment>
+    <div className={'App-page-content-fadein'}>
         <h2>About</h2>
         <div className={'About-content'}>
             <img className={'About-profile-photo'} src={profilephoto} alt={'Michael Kitzman'} />
@@ -16,7 +16,7 @@ const About = () => (
                 music and design.
             </p>
         </div>
-    </React.Fragment>
+    </div>
 );
 
 export default About;

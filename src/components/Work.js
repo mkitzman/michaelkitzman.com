@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Work = () => (
-    <React.Fragment>
+    <div className={'App-page-content-fadein'}>
         <h2>Work</h2>
         <h3>Current Tech Stack</h3>
         <ul className={'Work-tech-stack-list'}>
@@ -121,7 +121,7 @@ const Work = () => (
                 I also had an integral part in the architecture of the site including database design.
             </p>
         </section>
-    </React.Fragment>
+    </div>
 );
 
 export default Work;
