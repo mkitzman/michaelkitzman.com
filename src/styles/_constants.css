@@ -4,28 +4,24 @@
     --dodgerBlue: #1E90FF;
     --white: #FFFFFF;
 
+    /* Colors to use in CSS */
     --color-base-font: hsla(0, 0%, 0%, 0.8);
     --color-dark: var(--black);
     --color-light: var(--white);
     --color-default-link: var(--dodgerBlue);
     --color-header-gradient: linear-gradient(to right, #00DBDE 0%, #FC00FF 100%);
 
-    /* Break Points */
-   --min-small-screen: 36em;
-   --min-large-screen: 48em;
+    /* Font Sizes  */
+    --font-size-ant: 0.75em; /* 12px */
+    --font-size-cat: 0.875em; /* 14px */
+    --font-size-base: 100%; /* 16px */
+    --font-size-zebra: 1.438em; /* 23px */
+    --font-size-trex: 2.75em; /* 44px */
 
-    /* Ratio on smaller screens */
-    --ratio-for-small-screen: 1.2;
-    --ratio-for-large-screen: 1.414;
-
-    --base-font-size: 100%; /* 16px */
-    --base-line-height: 1.5;
-    --base-letter-spacing: 1px;
-    --font-page-title: 44px;
-    --font-page-title-letter-spacing: 1.2;
-
+    --line-height-base: 1.5;
+    --letter-spacing-base: 1px;
 }
 
 /* Media Queries */
-@custom-media --maxwidth-tablet (width <= 980px);
-@custom-media --maxwidth-phone (width <= 635px);
+@custom-media --maxwidth-large-screen (width <= 48em);
+@custom-media --maxwidth-small-screen (width <= 36em);

@@ -1,6 +1,6 @@
 .Header {
     background-image: var(--color-header-gradient);
-     background-size: 400% 400%;
+    background-size: 400% 400%;
     width: 100%;
     text-align: right;
     overflow: hidden;
@@ -28,9 +28,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 60px;
-    height: 60px;
-    font-size: 22px;
+    width: 65px;
+    height: 65px;
+    font-size: var(--font-size-zebra);
     border-radius: 50%;
     padding-right: 2px;
     letter-spacing: -2px;
@@ -43,10 +43,9 @@
         position: absolute;
         content: "MK";
         color: #F708B4;
+        top: 14px;
         left: 14px;
         z-index: -1;
-        font-size: 103%;
-        top: 12px;
         font-weight: 800;
         transition: all .2s ease-in;
     }
@@ -64,7 +63,7 @@
 
         &:hover .Header-logo-text::after {
             left: 13px;
-            font-size: 100%;
+            font-size: var(--font-size-base);
             font-weight: 500;
         }
     }

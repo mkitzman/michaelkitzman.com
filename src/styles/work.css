@@ -5,7 +5,7 @@
 .Work-tech-stack-list-item {
     display: inline-block;
     margin-right: 10px;
-    font-size: 23px;
+    font-size: var(--font-size-zebra);
     line-height: 1.6;
 
     &:not(:last-child)::after {
@@ -26,22 +26,23 @@
     text-transform: uppercase;
     opacity: .9;
     letter-spacing: 2px;
-    font-size: 13px;
+    font-size: var(--font-size-cat);
     border-bottom: 1px solid #7E7C7C;
 }
 
 .Work-skills-list-col-list-item {
 
-    font-size: 14px;
+    font-size: var(--font-size-cat);
     margin: 10px 0;
 
+    /* Checkmark */
     &::before {
         content: '\2713';
         margin-right: 5px;
         opacity: .8;
         border: 1px solid #DFDFDF;
         padding: 0 3px;
-        font-size: 12px;
+        font-size: var(--font-size-ant);
     }
 }
 
