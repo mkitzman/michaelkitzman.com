@@ -1,15 +1,22 @@
 :root {
     /* Colors */
     --black: #000000;
+    --darkTurquoise: #00DBDE;
     --dodgerBlue: #1E90FF;
+    --montana: #3E3F3F;
+    --shockingPink: #F708B4;
     --white: #FFFFFF;
 
     /* Colors to use in CSS */
     --color-base-font: hsla(0, 0%, 0%, 0.8);
     --color-dark: var(--black);
+    --color-off-dark: var(--montana);
     --color-light: var(--white);
     --color-default-link: var(--dodgerBlue);
-    --color-header-gradient: linear-gradient(to right, #00DBDE 0%, #FC00FF 100%);
+    --color-header-gradient: linear-gradient(to right, var(--darkTurquoise) 0%, var(--shockingPink) 100%);
+    --color-fancy-link-gradient: linear-gradient(to right, var(--darkTurquoise)  0%, var(--dodgerBlue) 100%);
+    --color-fancy-link-reverse-gradient: linear-gradient(to right, var(--dodgerBlue) 0%, var(--darkTurquoise) 100%);
+
 
     /* Font Sizes  */
     --font-size-ant: 0.75em; /* 12px */

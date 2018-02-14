@@ -12,7 +12,6 @@ a {
 
 p {
     font-size: var(--font-size-zebra);
-    line-height: 1.6;
     font-weight: 400;
     letter-spacing: -0.3px;
     word-spacing: -0.1px;
@@ -84,7 +83,7 @@ h3 {
         content: '';
         transition: all .2s ease-in-out 0s;
         opacity: 0;
-        background: #3E3F3F;
+        background: var(--color-off-dark);
         transform: scaleX(0);
     }
 
@@ -98,35 +97,36 @@ h3 {
 
 .App-fancy-anchor {
     position: relative;
-    color: var(--color-dark);
-    text-decoration: none;
     display: inline-block;
     padding: 0 5px;
+    color: var(--color-dark);
+    text-decoration: none;
 
+    /* have a block after and before a little off center
+    * on hover have them join up */
     &::after,
     &::before {
-        bottom: 5%;
-        content: '';
+        z-index: -1;
         position: absolute;
         top: 5%;
-        transition: .2s;
+        bottom: 5%;
         width: 56%;
-        z-index: -1;
-
-    }
-
-    &::after {
-        left: 46%;
-        opacity: .8;
-        transform: translateY(4px);
-        background-image: linear-gradient(to right, #4FACFE 0%, #00F2FE 100%);
+        content: '';
+        transition: .2s;
     }
 
     &::before {
         left: 0%;
         opacity: .5;
         transform: translateY(-4px);
-        background-image: linear-gradient(to right, #00F2FE 0%, #4FACFE 100%);
+        background-image: var(--color-fancy-link-gradient);
+    }
+
+    &::after {
+        left: 46%;
+        opacity: .8;
+        transform: translateY(4px);
+        background-image: var(--color-fancy-link-reverse-gradient);
     }
 
     &:focus,
