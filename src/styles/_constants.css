@@ -1,22 +1,39 @@
 :root {
     /* Colors */
-    --black: #000000;
     --darkTurquoise: #00DBDE;
     --dodgerBlue: #1E90FF;
+    --gainsboro: #DDDDDD;
     --montana: #3E3F3F;
+    --nero: #222222;
     --shockingPink: #F708B4;
     --white: #FFFFFF;
 
+    /* service icon colors */
+    --color-icon-apple: #999999;
+    --color-icon-codepen: #26BFFC;
+    --color-icon-email: #269539;
+    --color-icon-github: #C8C9CB;
+    --color-icon-gmail: #D14836;
+    --color-icon-linkedin: #0077B5;
+    --color-icon-outlook: #0072C6;
+    --color-icon-twitter: #1DA1F2;
+    --color-icon-untappd: #FFC000;
+    --color-icon-yahoo: #440099;
+
     /* Colors to use in CSS */
-    --color-base-font: hsla(0, 0%, 0%, 0.8);
-    --color-dark: var(--black);
+    --color-base-font: var(--nero);
+    --color-dark: var(--nero);
     --color-off-dark: var(--montana);
     --color-light: var(--white);
     --color-default-link: var(--dodgerBlue);
+    --color-hot: var(--shockingPink);
+    --color-shadow: var(--gainsboro);
+
+    /* gradients */
     --color-header-gradient: linear-gradient(to right, var(--darkTurquoise) 0%, var(--shockingPink) 100%);
     --color-fancy-link-gradient: linear-gradient(to right, var(--darkTurquoise)  0%, var(--dodgerBlue) 100%);
     --color-fancy-link-reverse-gradient: linear-gradient(to right, var(--dodgerBlue) 0%, var(--darkTurquoise) 100%);
-
+    --color-logo-gradient: linear-gradient(60deg, var(--nero) 0%, var(--montana) 100%);
 
     /* Font Sizes  */
     --font-size-ant: 0.75em; /* 12px */
@@ -25,6 +42,7 @@
     --font-size-zebra: 1.438em; /* 23px */
     --font-size-trex: 2.75em; /* 44px */
 
+    /* spacing */
     --line-height-base: 1.5;
     --letter-spacing-base: 1px;
 }

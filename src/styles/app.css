@@ -43,6 +43,7 @@ h3 {
     font-size: var(--font-size-zebra);
 }
 
+/* Hide content from sighted users but make it visible to screen readers */
 .visually-hidden {
     position: absolute !important;
     white-space: nowrap;
@@ -141,19 +142,7 @@ h3 {
 }
 
 .App-page-content-fadein {
-    animation-name: fadeInPageLoad;
+    animation-name: App-fade-in-onload;
     animation-fill-mode: both;
     animation-duration: 1s;
-}
-
-@keyframes fadeInPageLoad {
-    0% {
-        opacity: 0;
-        transform: translateY(45px);
-    }
-
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
 }

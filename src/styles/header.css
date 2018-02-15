@@ -1,23 +1,11 @@
 .Header {
+    width: 100%;
+    overflow: hidden;
+    text-align: right;
     background-image: var(--color-header-gradient);
     background-size: 400% 400%;
-    width: 100%;
-    text-align: right;
-    overflow: hidden;
-    animation: HeaderGradient 5s ease infinite;
+    animation: Header-moving-gradient 5s ease infinite;
     transition: all .2s ease-in;
-}
-
-@keyframes HeaderGradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
 }
 
 .Header-logo {
@@ -26,13 +14,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 65px;
-    height: 65px;
+    width: 57px;
+    height: 57px;
     padding-right: 2px;
     border-radius: 50%;
     font-size: var(--font-size-zebra);
     letter-spacing: -2px;
-    background-image: linear-gradient(60deg, #29323C 0%, #485563 100%);
+    background-image: var(--color-logo-gradient);
     color: var(--color-light);
     transition: all .2s ease-in;
 }
@@ -45,7 +33,7 @@
         top: 14px;
         left: 14px;
         font-weight: 800;
-        color: #F708B4;
+        color: var(--color-hot);
         transition: all .2s ease-in;
     }
 }
@@ -57,7 +45,7 @@
 
         & .Header-logo,
         & .Header-logo {
-            border: 1px solid #F708B4;
+            border: 1px solid var(--color-hot);
         }
 
         &:hover .Header-logo-text::after {

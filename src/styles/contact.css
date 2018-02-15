@@ -1,9 +1,9 @@
 .Contact {
     display: grid;
     grid-template-columns: 50% 50%;
+    grid-gap: 20px;
     width: 60%;
     margin: auto;
-    grid-gap: 20px;
 }
 
 .Contact-container-header {
@@ -11,9 +11,9 @@
 }
 
 .Contact-list {
-    margin: auto;
     display: flex;
     justify-content: flex-start;
+    margin: auto;
 }
 
 .Contact-list-item:not(last-child) {
@@ -22,8 +22,8 @@
 
 .Contact-icon {
     width: 30px;
+    fill: var(--color-dark);
     transition: all .2s ease-in;
-    fill: #000000;
 }
 
 .Contact-link {
@@ -32,15 +32,15 @@
         outline: none;
         text-decoration: none;
 
-        & .Contact-icon-email {fill: #269539;}
-        & .Contact-icon-gmail {fill: #D14836;}
-        & .Contact-icon-outlook {fill: #0072C6;}
-        & .Contact-icon-yahoo {fill: #440099;}
-        & .Contact-icon-twitter {fill: #1DA1F2;}
-        & .Contact-icon-github {fill: #C8C9CB;}
-        & .Contact-icon-apple {fill: #999999;}
-        & .Contact-icon-linkedin {fill: #0077B5;}
-        & .Contact-icon-codepen {fill: #26BFFC;}
-        & .Contact-icon-untappd {fill: #FFC000;}
+        & .Contact-icon-apple {fill: var(--color-icon-apple);}
+        & .Contact-icon-codepen {fill: var(--color-icon-codepen);}
+        & .Contact-icon-email {fill: var(--color-icon-email);}
+        & .Contact-icon-github {fill: var(--color-icon-github);}
+        & .Contact-icon-gmail {fill: var(--color-icon-gmail);}
+        & .Contact-icon-linkedin {fill: var(--color-icon-linkedin);}
+        & .Contact-icon-outlook {fill: var(--color-icon-outlook);}
+        & .Contact-icon-twitter {fill: var(--color-icon-twitter);}
+        & .Contact-icon-untappd {fill: var(--color-icon-untappd);}
+        & .Contact-icon-yahoo {fill: var(--color-icon-yahoo);}
     }
 }
