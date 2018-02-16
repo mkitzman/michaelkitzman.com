@@ -7,7 +7,9 @@ const Stats = () => (
             This site is built using React, Webpack, Babel and PostCSS. For linting 
             I use Stylelint for CSS and and eslint for JavaScript. Headings are set in Karla and the text face is Lato.
         </p>
-        <p>Hosted on Netlify, using a JAM stack and continuous deployment.</p>
+        <p>
+            Hosted on Netlify, using a JAM stack and continuous deployment.
+        </p>
         <dl className={'Stats-list'}>
             <dt>Page Size:</dt><dd>681kb</dd>
             <dt>CSS Size:</dt><dd>3.2MB</dd>

@@ -54,9 +54,8 @@
             font-weight: 500;
         }
     }
-
-
 }
+
 
 .Header-nav {
     display: flex;
@@ -69,6 +68,7 @@
 
 .Header-nav-item {
     display: inline-block;
+    font-size: var(--font-size-base);
     margin-right: 5px;
 }
 
@@ -78,5 +78,11 @@
         content: '/';
         margin: 0 5px;
         opacity: .5;
+    }
+}
+
+@media (--maxwidth-small-screen) {
+    .Header-nav-item {
+        font-size: var(--font-size-cat);
     }
 }
