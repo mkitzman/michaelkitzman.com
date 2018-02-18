@@ -44,3 +44,9 @@
         & .Contact-icon-yahoo {fill: var(--color-icon-yahoo);}
     }
 }
+
+@media (--maxwidth-small-screen) {
+    .Contact {
+        display: block;
+    }
+}
