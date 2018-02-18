@@ -48,5 +48,6 @@
 @media (--maxwidth-small-screen) {
     .Contact {
         display: block;
+        width: 100%;
     }
 }
