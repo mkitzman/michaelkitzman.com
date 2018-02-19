@@ -23,9 +23,6 @@ const Header = () => (
                 <li className={'Header-nav-item'}>
                     <Link to="/a11y" className={'App-animated-anchor'}>A11Y</Link>
                 </li>
-                <li className={'Header-nav-item'}>
-                    <Link to="/stats" className={'App-animated-anchor'}>Stats</Link>
-                </li>
             </ul>
         </nav>
     </header>
