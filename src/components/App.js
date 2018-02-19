@@ -21,14 +21,6 @@ class App extends React.Component {
         };
     }
 
-    componentWillMount() {
-        console.log('componentWillMount');
-    }
-
-    componentWillUpdate() {
-        console.log('componentWillUpdate');
-    }
-
     render() {
         return (
             <HashRouter>
