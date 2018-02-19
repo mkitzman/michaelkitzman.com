@@ -54,3 +54,13 @@
     margin-bottom: 10px;
     opacity: .8;
 }
+
+@media (--maxwidth-small-screen) {
+    .Work-skills-list {
+        flex-direction: column;
+    }
+
+    .Work-skills-list-item {
+        margin-bottom: 20px;
+    }
+}

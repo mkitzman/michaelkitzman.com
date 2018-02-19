@@ -17,6 +17,7 @@
 .Footer-contact-trigger {
     border: none;
     cursor: pointer;
+    background-color: transparent;
 }
 
 .Footer-contact {

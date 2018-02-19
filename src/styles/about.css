@@ -8,3 +8,16 @@
     float: right;
     shape-outside: circle(50%);
 }
+
+
+@media (--maxwidth-small-screen) {
+    .About-content {
+        width: 100%;
+    }
+
+    .About-profile-photo {
+        display: block;
+        float: none;
+        margin-bottom: 20px;
+    }
+}
