@@ -21,6 +21,7 @@
     font-size: var(--font-size-zebra);
     letter-spacing: -2px;
     background-image: var(--color-logo-gradient);
+    background-color: var(--color-dark);
     color: var(--color-light);
     transition: all .2s ease-in;
 }
