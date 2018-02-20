@@ -20,7 +20,7 @@ const plugins = [
 ];
 
 module.exports = {
-    entry: ['babel-polyfill', __dirname + '/src/index.js'],
+    entry: __dirname + '/src/index.js',
     resolve: {
         extensions: ['.webpack.js', '.web.js', '.js', '.es6.js', '.css'],
         modules: ['node_modules', './src/']

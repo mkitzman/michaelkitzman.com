@@ -13,7 +13,7 @@ const Stats = () => (
         <dl className={'Stats-list'}>
             <dt>Page Size:</dt><dd>681kb</dd>
             <dt>CSS Size:</dt><dd>3.2MB</dd>
-            <dt>Requests:</dt><dd>7</dd>
+            <dt>Requests:</dt><dd>8</dd>
             <dt>Load Time (cached):</dt><dd>672ms</dd>
             <dt>Load Time (first visit):</dt><dd>1.816s</dd>
 
@@ -30,7 +30,7 @@ const Stats = () => (
 
             <dt><a href="https://search.google.com/structured-data/testing-tool/u/0/#url=https%3A%2F%2Fwww.michaelkitzman.com">Google Structured Data Test:</a></dt><dd>0 ERRORS, 0 WARNINGS</dd>
             <dt>AXE A11Y results:</dt><dd>No accessibility violations found in the current state of the page</dd>
-            <dt><a href="http://yellowlab.tools/result/eyglfm05mw">Yellow Labs Global Score: 100/100</a></dt><dd>(actual value is 99 due to a Javascript error caused by their tester not supporting ES6 Map)</dd>
+            <dt><a href="http://yellowlab.tools/result/eygug3bqfn">Yellow Labs Global Score:</a></dt><dd>97/100</dd>
         </dl>
     </div>
 );
