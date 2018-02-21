@@ -11,7 +11,7 @@ const Stats = () => (
             Hosted on Netlify, using a JAM stack and continuous deployment.
         </p>
         <dl className={'Stats-list'}>
-            <dt>Page Size:</dt><dd>681kb</dd>
+            <dt>Page Size:</dt><dd>752kb</dd>
             <dt>CSS Size:</dt><dd>3.2MB</dd>
             <dt>Requests:</dt><dd>8</dd>
             <dt>Load Time (cached):</dt><dd>672ms</dd>

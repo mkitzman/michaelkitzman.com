@@ -7,11 +7,11 @@ const Home = () => (
             Hi, I'm Mike Kitzman
         </h2>
         <p>
-            I’m a Principal Front-end/UI Developer at Oracle.
+            Principal Front-end/UI Developer at Oracle.
         </p>
         <p>
             I'm passionate about building websites, CSS Architecture at
-            scale, UX, Accessibility and inclusive design, UI Interactions, 
+            scale, UX, Accessibility, inclusive design, UI Interactions, 
             semantic markup, and performance.
         </p>
         <p>

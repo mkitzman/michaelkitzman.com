@@ -10,19 +10,11 @@ const Header = () => (
                     <span className={'visually-hidden'}>Michael Kitzman</span>
                 </h1>
             </Link>
-            <ul>
-                <li className={'Header-nav-item'}>
-                    <Link to="/" className={'App-animated-anchor'}>Home</Link>
-                </li>
-                <li className={'Header-nav-item'}>
-                    <Link to="/about" className={'App-animated-anchor'}>About</Link>
-                </li>
-                <li className={'Header-nav-item'}>
-                    <Link to="/work" className={'App-animated-anchor'}>Work</Link>
-                </li>
-                <li className={'Header-nav-item'}>
-                    <Link to="/a11y" className={'App-animated-anchor'}>A11Y</Link>
-                </li>
+            <ul className={'Header-nav-list'}>
+                <li><Link className={'App-animated-anchor'} to="/">Home</Link></li>
+                <li><Link className={'App-animated-anchor'} to="/about">About</Link></li>
+                <li><Link className={'App-animated-anchor'} to="/work">Work</Link></li>
+                <li><Link className={'App-animated-anchor'} to="/a11y">A11Y</Link></li>                
             </ul>
         </nav>
     </header>
