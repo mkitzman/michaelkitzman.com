@@ -18,6 +18,7 @@
     .About-profile-photo {
         display: block;
         float: none;
-        margin-bottom: 20px;
+        margin-bottom: 2rem;
+        shape-outside: none;
     }
 }

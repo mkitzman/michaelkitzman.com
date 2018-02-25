@@ -14,7 +14,8 @@ const Header = () => (
                 <li><Link className={'App-animated-anchor'} to="/">Home</Link></li>
                 <li><Link className={'App-animated-anchor'} to="/about">About</Link></li>
                 <li><Link className={'App-animated-anchor'} to="/work">Work</Link></li>
-                <li><Link className={'App-animated-anchor'} to="/a11y">A11Y</Link></li>                
+                <li><Link className={'App-animated-anchor'} to="/a11y">A11Y</Link></li>
+                <li><Link className={'App-animated-anchor'} to="/contact">Contact</Link></li>
             </ul>
         </nav>
     </header>

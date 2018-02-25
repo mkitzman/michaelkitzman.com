@@ -1,13 +1,14 @@
 .Contact {
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-gap: 20px;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
+    grid-gap: 2em;
     width: 60%;
     margin: auto;
 }
 
 .Contact-container-header {
-    margin: 0 0 20px 0;
+    margin: 0 0 1em 0;
 }
 
 .Contact-list {
@@ -17,7 +18,7 @@
 }
 
 .Contact-list-item:not(last-child) {
-    margin-right: 20px;
+    margin-right: 1em;
 }
 
 .Contact-icon {
@@ -37,6 +38,7 @@
         & .Contact-icon-email {fill: var(--color-icon-email);}
         & .Contact-icon-github {fill: var(--color-icon-github);}
         & .Contact-icon-gmail {fill: var(--color-icon-gmail);}
+        & .Contact-icon-instagram {fill: var(--color-icon-instagram);}
         & .Contact-icon-linkedin {fill: var(--color-icon-linkedin);}
         & .Contact-icon-outlook {fill: var(--color-icon-outlook);}
         & .Contact-icon-twitter {fill: var(--color-icon-twitter);}

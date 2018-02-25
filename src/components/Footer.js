@@ -6,72 +6,10 @@ import hopstermikelogo from '../images/hopstermike.png';
 
 class Footer extends React.Component {
 
-    constructor() {
-        super();
-        this.state = {
-            showContact: false,
-            activeTrap: false
-        };
-
-        this.mountTrap = this.mountTrap.bind(this);
-        this.unmountTrap = this.unmountTrap.bind(this);
-    }
-
-    mountTrap() {
-        this.setState({
-            activeTrap: true
-        });
-    }
-
-    unmountTrap() {
-        this.setState({
-            activeTrap: false
-        });
-    }
-
-    getContactForm() {
-        if(!this.state.activeTrap) {
-            return false;
-        }
-
-        return (
-            <FocusTrap
-                focusTrapOptions={{
-                    onDeactivate: this.unmountTrap
-                }}
-            >
-                <div className={'Footer-contact'}>
-                    <Contact />
-                    <button
-                        className={'Footer-contact-close'}
-                        onClick={this.unmountTrap}
-                    >
-                        <span aria-hidden={true}>X</span>
-                        <span className={'visually-hidden'}>Close</span>
-                    </button>
-                </div>
-            </FocusTrap>
-        )
-    }
-
     render() {
         return (
             <footer className={'Footer'}>
-                {this.getContactForm()}
-                <ul className={'Footer-list'}>
-                    <li>
-                        &copy;{(new Date().getFullYear())} Michael Kitzman
-                    </li>
-                    <li><img className={'Footer-logo'} src={hopstermikelogo} alt={'hopster mike logo'} /></li>
-                    <li>
-                        <button
-                            className={'Footer-contact-trigger App-animated-anchor'}
-                            onClick={this.mountTrap}
-                        >
-                            Say Hello!
-                        </button>
-                    </li>
-                </ul>
+                <small>&copy;{(new Date().getFullYear())} 100% designed and crafted by Michael Kitzman</small>    
             </footer>
         );
     }
