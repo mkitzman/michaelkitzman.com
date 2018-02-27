@@ -1,9 +1,6 @@
+/*
 .Home-tech-stack-list-item {
     display: inline-block;
-    margin-right: 10px;
-
-
-    &:not(:last-child)::after {
-        content: ',';
-    }
+    margin-right: 1rem;
 }
+*/

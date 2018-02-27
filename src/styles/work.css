@@ -1,10 +1,10 @@
 .Work-tech-stack-list {
-    margin-bottom: 40px;
+    margin-bottom: 3rem;
 }
 
 .Work-tech-stack-list-item {
     display: inline-block;
-    margin-right: 10px;
+    margin-right: 1rem;
     font-size: var(--font-size-zebra);
 
     &:not(:last-child)::after {
@@ -16,7 +16,7 @@
     display: flex;
     align-items: left;
     justify-content: space-between;
-    margin-bottom: 40px;
+    margin-bottom: 3rem;
     max-width: 800px;
 }
 
@@ -32,7 +32,7 @@
 .Work-skills-list-col-list-item {
 
     font-size: var(--font-size-cat);
-    margin: 10px 0;
+    margin: .5rem 0;
 
     /* Checkmark in square */
     &::before {
@@ -51,7 +51,7 @@
 }
 
 .Work-history-sub-title {
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
     opacity: .8;
 }
 
@@ -61,6 +61,6 @@
     }
 
     .Work-skills-list-item {
-        margin-bottom: 20px;
+        margin-bottom: 2rem;
     }
 }
