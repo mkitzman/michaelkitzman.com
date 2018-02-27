@@ -20,12 +20,6 @@ const Stats = () => (
             <li><span className={'Stats-list-large-stat'}>672ms</span>Load Time (first visit)</li>
         </ul>
 
-        <h3>Google Page Speed</h3>
-        <ul className={'Stats-list'}>
-            <li><span className={'Stats-list-large-stat'}>100</span>Mobile</li>
-            <li><span className={'Stats-list-large-stat'}>100</span>Desktop</li>
-        </ul>
-
         <h3>WebPagetest</h3>
         <ul className={'Stats-list'}>
             <li><span className={'Stats-list-large-stat'}>2,014</span>Speed Index</li>
