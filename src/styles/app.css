@@ -152,5 +152,6 @@ h3 {
 @media (--maxwidth-small-screen) {
     .App-grid {
         grid-template-columns: 1fr 80% 1fr;
+        grid-template-rows: 6.7rem 1fr 2rem;
     }
 }

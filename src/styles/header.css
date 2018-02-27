@@ -83,6 +83,16 @@
 }
 
 @media (--maxwidth-small-screen) {
+
+    .Header-nav {
+        padding: .625rem .5rem;
+        flex-direction: column;
+    }
+
+    .Header-logo-link {
+        margin-bottom: .5rem;
+    }
+
     .Header-nav-list {
         font-size: var(--font-size-cat);
     }

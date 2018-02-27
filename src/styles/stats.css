@@ -13,3 +13,9 @@
     line-height: 1;
     font-weight: 800;
 }
+
+@media (--maxwidth-small-screen) {
+    .Stats-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
