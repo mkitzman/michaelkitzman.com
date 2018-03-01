@@ -45,6 +45,11 @@ h3 {
     font-size: var(--font-size-zebra);
 }
 
+::selection {
+    background: var(--color-hot);
+    color: var(--color-light);
+}
+
 /* Hide content from sighted users but make it visible to screen readers */
 .visually-hidden {
     position: absolute !important;
