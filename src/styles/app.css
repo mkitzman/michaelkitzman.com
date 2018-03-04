@@ -103,48 +103,23 @@ h3 {
     }
 }
 
-.App-fancy-anchor {
+a:not(.App-animated-anchor) {
     position: relative;
     display: inline-block;
     padding: 0 .3rem;
     color: var(--color-dark);
     text-decoration: none;
-
-    /* have a block after and before a little off center
-    * on hover have them join up */
-    &::after,
-    &::before {
-        z-index: -1;
-        position: absolute;
-        top: 5%;
-        bottom: 5%;
-        width: 56%;
-        content: '';
-        transition: .2s;
-    }
-
-    &::before {
-        left: 0%;
-        opacity: .5;
-        transform: translateY(-4px);
-        background-image: var(--color-fancy-link-gradient);
-    }
-
-    &::after {
-        left: 46%;
-        opacity: .8;
-        transform: translateY(4px);
-        background-image: var(--color-fancy-link-reverse-gradient);
-    }
+    transition: .1s cubic-bezier(.68, 0, .07, 1);
+    background: var(--color-fancy-link-gradient);
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    background-size: 100% .13rem;
 
     &:focus,
     &:hover {
-        &::after,
-        &::before {
-            text-decoration: none;
-            transform: translateY(0);
-            opacity: 1;
-        }
+        text-decoration: none;
+        outline: none;
+        background-size: 100% 100%;
     }
 }
 

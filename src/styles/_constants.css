@@ -1,6 +1,7 @@
 :root {
     /* Colors */
     --darkTurquoise: #00DBDE;
+    --deepSkyBlue: #00C6FB;
     --dodgerBlue: #016BFF;
     --gainsboro: #DDDDDD;
     --montana: #3E3F3F;
@@ -32,8 +33,7 @@
 
     /* gradients */
     --color-header-gradient: linear-gradient(to right, var(--darkTurquoise) 0%, var(--shockingPink) 100%);
-    --color-fancy-link-gradient: linear-gradient(to right, var(--darkTurquoise)  0%, var(--dodgerBlue) 100%);
-    --color-fancy-link-reverse-gradient: linear-gradient(to right, var(--dodgerBlue) 0%, var(--darkTurquoise) 100%);
+    --color-fancy-link-gradient: linear-gradient(to bottom, var(--deepSkyBlue) 0%, var(--deepSkyBlue) 100%);
     --color-logo-gradient: linear-gradient(60deg, var(--nero) 0%, var(--montana) 100%);
 
     /* Font Sizes  */

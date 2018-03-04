@@ -40,6 +40,7 @@
 }
 
 .Header-logo-link {
+
     &:focus,
     &:hover {
         outline: none;
@@ -56,6 +57,11 @@
         }
     }
 }
+
+a.Header-logo-link {
+    background: none;
+}
+
 
 
 .Header-nav {
