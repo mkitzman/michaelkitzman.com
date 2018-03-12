@@ -15,8 +15,7 @@ const Home = () => (
             semantic markup, and performance.
         </p>
         <p>
-            I have over 20 years of experience building web sites that have been 
-            viewed by <strong>billions of people</strong>.
+            I have over 20 years of experience building web sites viewed by <strong>billions of people</strong>.
         </p>
 
         <p>
