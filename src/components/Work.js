@@ -61,7 +61,7 @@ const Work = () => (
 
         <section className={'Work-history'}>
             <h3 className={'Work-history-title'}>
-                Oracle (acquired AddThis) - Principle Front End Engineer
+                Oracle (acquired AddThis) - Principal Front End Engineer
             </h3>
             <h4 className={'Work-history-sub-title'}>
                 March 2015 - Present / 3 years
