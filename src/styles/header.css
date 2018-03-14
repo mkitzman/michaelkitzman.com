@@ -20,23 +20,13 @@
     border-radius: 50%;
     font-size: var(--font-size-zebra);
     letter-spacing: -2px;
-    background-image: var(--color-logo-gradient);
     background-color: var(--color-dark);
     color: var(--color-light);
     transition: all .2s ease-in;
 }
 
 .Header-logo-text {
-    &::after {
-        z-index: -1;
-        position: absolute;
-        content: "MK";
-        top: 14px;
-        left: 14px;
-        font-weight: 800;
-        color: var(--color-hot);
-        transition: all .2s ease-in;
-    }
+    text-shadow: 1px 1px var(--color-dark), 2px 2px var(--color-hot);
 }
 
 .Header-logo-link {

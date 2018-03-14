@@ -34,7 +34,6 @@
     /* gradients */
     --color-header-gradient: linear-gradient(to right, var(--darkTurquoise) 0%, var(--shockingPink) 100%);
     --color-fancy-link-gradient: linear-gradient(to bottom, var(--deepSkyBlue) 0%, var(--deepSkyBlue) 100%);
-    --color-logo-gradient: linear-gradient(60deg, var(--nero) 0%, var(--montana) 100%);
 
     /* Font Sizes  */
     --font-size-ant: 0.75em; /* 12px */
