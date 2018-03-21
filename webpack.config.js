@@ -5,7 +5,7 @@ const SWPrecacheWebpackPlugin = require('sw-precache-webpack-plugin');
 const WebpackPwaManifest = require('webpack-pwa-manifest');
 const path = require('path');
 
-const PUBLIC_PATH = 'https://www.michaelkitzman.com/';
+const PUBLIC_PATH = '/';
 
 const plugins = [
     new HTMLWebpackPlugin({

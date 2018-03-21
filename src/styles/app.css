@@ -127,7 +127,7 @@ a:not(.App-animated-anchor) {
 .App-page-content-fadein {
     animation-name: App-fade-in-onload;
     animation-fill-mode: both;
-    animation-duration: 1s;
+    animation-duration: .2s;
 }
 
 @media (--maxwidth-small-screen) {
