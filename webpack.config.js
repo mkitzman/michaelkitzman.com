@@ -35,13 +35,16 @@ const plugins = [
         short_name: 'MikeK',
         description: 'Mike Kitzman Personal Site',
         background_color: '#FFFFFF',
+        theme_color: '#3E3F3F',
+        'theme-color': '#3E3F3F',
         inject: true,
         ios: true,
         icons: [
             {
                 src: './src/images/icon.png',
                 sizes: [96, 128, 192],
-                ios: true
+                ios: true,
+                destination: path.join('assets', 'icons')
             }
         ]
     })
