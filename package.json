@@ -4,9 +4,9 @@
   "description": "Personal site for Michael Kitzman",
   "main": "index.js",
   "scripts": {
-    "build": "webpack",
+    "build": "NODE_ENV=production webpack",
     "start": "webpack-dev-server",
-    "bstart": "webpack; webpack-dev-server"
+    "bstart": "NODE_ENV=local webpack; webpack-dev-server"
   },
   "author": "Michael Kitzman",
   "license": "ISC",
@@ -42,6 +42,7 @@
     "stylelint": "^8.4.0",
     "stylelint-webpack-plugin": "^0.9.0",
     "sw-precache-webpack-plugin": "^0.11.5",
+    "uglifyjs-webpack-plugin": "^1.2.4",
     "url-loader": "^0.6.2",
     "webpack": "^3.10.0",
     "webpack-dev-server": "^2.10.1",

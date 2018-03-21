@@ -1,9 +1,21 @@
+const webpack = require('./node_modules/webpack');
 const HTMLWebpackPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const StyleLintPlugin = require('stylelint-webpack-plugin');
 const SWPrecacheWebpackPlugin = require('sw-precache-webpack-plugin');
 const WebpackPwaManifest = require('webpack-pwa-manifest');
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 const path = require('path');
+
+//Set up ability to use environment variables for url
+const BUILD_ENV = process.env.ENV || 'local';
+const baseEnv = require('./conf/webpack/define/base');
+const env = Object.assign({}, baseEnv, require('./conf/webpack/define/' + BUILD_ENV));
+const prod = BUILD_ENV === 'prod';
+process.env.NODE_ENV = prod ? 'production' : 'local';
+
+console.log('process.env.NODE_ENV:', process.env.NODE_ENV);
+
 
 const PUBLIC_PATH = '/';
 
@@ -13,6 +25,12 @@ const plugins = [
         filename: 'index.html',
         inject: 'body',
         favicon: './src/images/favicon.ico'
+    }),
+    new webpack.DefinePlugin({
+        'process.env': {
+            NODE_ENV: JSON.stringify(process.env.NODE_ENV)
+        },
+        '$ENV': JSON.stringify(env)
     }),
     new ExtractTextPlugin('bundle.css'),
     new StyleLintPlugin({
@@ -49,6 +67,19 @@ const plugins = [
         ]
     })
 ];
+
+if (prod) {
+    plugins.push(new webpack.optimize.UglifyJsPlugin({
+        uglifyOptions: {
+            compress: true
+        },
+        sourceMap: false,
+        output: {
+            comments: false
+        },
+        comments: false
+    }));
+}
 
 module.exports = {
     entry: __dirname + '/src/index.js',
