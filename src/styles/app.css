@@ -1,6 +1,37 @@
+@font-face{
+    font-family:Lato;
+    font-style:normal;
+    font-weight:300;
+    font-display: swap;
+    src:url(//fonts.gstatic.com/s/lato/v13/KT3KS9Aol4WfR6Vas8kNcg.woff) format("woff");
+}
+@font-face{
+    font-family:Lato;
+    font-style:normal;
+    font-weight:400;
+    font-display: swap;
+    src:url(//fonts.gstatic.com/s/lato/v13/9k-RPmcnxYEPm8CNFsH2gg.woff) format("woff");
+}
+
+@font-face{
+    font-family:Lato;
+    font-style:normal;
+    font-weight:900;
+    font-display: swap;
+    src:url(//fonts.gstatic.com/s/lato/v13/BVtM30trf7q_jfqYeHfjtA.woff) format("woff");
+}
+
+@font-face {
+    font-family:Karla;
+    font-style:normal;
+    font-weight:400;
+    font-display: swap;
+    src:url(//fonts.gstatic.com/s/karla/v5/azR40LUJrT4HaWK28zHmVA.woff) format("woff");
+}
+
 html {
     box-sizing: border-box;
-    font-family: 'Karla';
+    font-family: 'Karla', Helvetica, sans-serif;
     color: var(--color-base-font);
     font-size: var(--font-size-base);
     line-height: var(--line-height-base);
@@ -32,7 +63,7 @@ article {
 
 h2,
 h3 {
-    font-family: 'Lato';
+    font-family: 'Lato', Helvetica, sans-serif;
     font-weight: 900;
     margin-bottom: .5rem;
 }
