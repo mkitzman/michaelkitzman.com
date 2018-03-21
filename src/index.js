@@ -8,3 +8,9 @@ ReactDOM.render(
     <App />,
     document.getElementById('App')
 );
+
+(function () {
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('./service-worker.js', {scope: '/'});
+    }
+})();

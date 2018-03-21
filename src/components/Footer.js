@@ -1,8 +1,7 @@
 import React from 'react';
 import FocusTrap from 'focus-trap-react';
-
 import Contact from 'components/Contact';
-import hopstermikelogo from '../images/hopstermike.png';
+
 
 class Footer extends React.Component {
 

@@ -1,6 +1,11 @@
 const HTMLWebpackPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const StyleLintPlugin = require('stylelint-webpack-plugin');
+const SWPrecacheWebpackPlugin = require('sw-precache-webpack-plugin');
+const WebpackPwaManifest = require('webpack-pwa-manifest');
+const path = require('path');
+
+const PUBLIC_PATH = 'https://www.michaelkitzman.com/';
 
 const plugins = [
     new HTMLWebpackPlugin({
@@ -16,13 +21,30 @@ const plugins = [
         failOnError: false,
         emitErrors: true,
         quiet: false
+    }),
+    new SWPrecacheWebpackPlugin({
+        cacheId: 'michaelkitzman',
+        dontCacheBustUrlsMatching: /\.\w{8}\./,
+        filename: 'service-worker.js',
+        minify: true,
+        navigateFallback: PUBLIC_PATH + 'index.html',
+        staticFileGlobsIgnorePatterns: [/\.map$/, /manifest\.json$/]
+    }),
+    new WebpackPwaManifest({
+        name: 'Mike Kitzman',
+        short_name: 'MikeK',
+        description: 'Mike Kitzman Personal Site',
+        background_color: '#FFFFFF',
+        inject: true,
+        ios: true,
+
     })
 ];
 
 module.exports = {
     entry: __dirname + '/src/index.js',
     resolve: {
-        extensions: ['.webpack.js', '.web.js', '.js', '.es6.js', '.css'],
+        extensions: ['.webpack.js', '.web.js', '.js', '.es6.js', '.css',
         modules: ['node_modules', './src/']
     },
     devtool: 'eval-source-map',
@@ -58,7 +80,8 @@ module.exports = {
     },
     output: {
         filename: 'app.js',
-        path: __dirname + '/public'
+        path: __dirname + '/public',
+        publicPath: PUBLIC_PATH
     },
     plugins: plugins
 };
