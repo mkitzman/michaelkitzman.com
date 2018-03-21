@@ -36,15 +36,14 @@ const plugins = [
         description: 'Mike Kitzman Personal Site',
         background_color: '#FFFFFF',
         inject: true,
-        ios: true,
-
+        ios: true
     })
 ];
 
 module.exports = {
     entry: __dirname + '/src/index.js',
     resolve: {
-        extensions: ['.webpack.js', '.web.js', '.js', '.es6.js', '.css',
+        extensions: ['.webpack.js', '.web.js', '.js', '.es6.js', '.css'],
         modules: ['node_modules', './src/']
     },
     devtool: 'eval-source-map',
