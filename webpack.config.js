@@ -36,7 +36,14 @@ const plugins = [
         description: 'Mike Kitzman Personal Site',
         background_color: '#FFFFFF',
         inject: true,
-        ios: true
+        ios: true,
+        icons: [
+            {
+                src: './src/images/icon.png',
+                sizes: [96, 128, 192],
+                ios: true
+            }
+        ]
     })
 ];
 
