@@ -32,7 +32,7 @@ const plugins = [
         },
         '$ENV': JSON.stringify(env)
     }),
-    new ExtractTextPlugin('bundle.css'),
+    //new ExtractTextPlugin('bundle.css'),
     new StyleLintPlugin({
         files: '**/styles/*.css',
         configFile: '.stylelintrc',
@@ -97,7 +97,7 @@ module.exports = {
 
             },
             {
-                test: /\.NOTUSEDcss$/,
+                test: /\.css$/,
                 exclude: /node_modules/,
                 use: [
                     'style-loader',
@@ -111,8 +111,8 @@ module.exports = {
                     'postcss-loader'
                 ]
             },
-            {
-                test: /\.css$/,
+            /*{
+                test: /\.NOTUSEDcss$/,
                 exclude: /node_modules/,
                 use: ExtractTextPlugin.extract({
                     fallback: 'style-loader',
@@ -126,7 +126,7 @@ module.exports = {
                         'postcss-loader'
                     ]
                 })
-            },
+            },*/
             {
                 test: /\.(png|jp(e*)g||\.ico$|svg)$/,  
                 use: ['file-loader?name=images/[name].[ext]']
