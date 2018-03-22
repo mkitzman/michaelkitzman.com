@@ -7,30 +7,23 @@ const WebpackPwaManifest = require('webpack-pwa-manifest');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 const path = require('path');
 
-//Set up ability to use environment variables for url
-const BUILD_ENV = process.env.ENV || 'local';
-const baseEnv = require('./conf/webpack/define/base');
-const env = Object.assign({}, baseEnv, require('./conf/webpack/define/' + BUILD_ENV));
-const prod = BUILD_ENV === 'prod';
-process.env.NODE_ENV = prod ? 'production' : 'local';
-
 console.log('process.env.NODE_ENV:', process.env.NODE_ENV);
-
 
 const PUBLIC_PATH = '/';
 
 const plugins = [
+    new webpack.DefinePlugin({ //<--key to reduce React's size
+        'process.env': {
+        'NODE_ENV': JSON.stringify('production')
+        }
+    }),
+    new webpack.optimize.UglifyJsPlugin(),
+    new webpack.optimize.AggressiveMergingPlugin(),
     new HTMLWebpackPlugin({
         template: __dirname + '/src/index.html',
         filename: 'index.html',
         inject: 'body',
         favicon: './src/images/favicon.ico'
-    }),
-    new webpack.DefinePlugin({
-        'process.env': {
-            NODE_ENV: JSON.stringify(process.env.NODE_ENV)
-        },
-        '$ENV': JSON.stringify(env)
     }),
     new ExtractTextPlugin('bundle.css'),
     new StyleLintPlugin({
@@ -68,18 +61,6 @@ const plugins = [
     })
 ];
 
-if (prod) {
-    plugins.push(new webpack.optimize.UglifyJsPlugin({
-        uglifyOptions: {
-            compress: true
-        },
-        sourceMap: false,
-        output: {
-            comments: false
-        },
-        comments: false
-    }));
-}
 
 module.exports = {
     entry: __dirname + '/src/index.js',
@@ -87,7 +68,7 @@ module.exports = {
         extensions: ['.webpack.js', '.web.js', '.js', '.es6.js', '.css'],
         modules: ['node_modules', './src/']
     },
-    devtool: 'eval-source-map',
+    devtool: 'source-map',
     module: {
         loaders: [
             {
