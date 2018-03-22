@@ -6,3 +6,9 @@ This file will be inlined.
 @import "_reset.css";
 @import "app.css";
 @import "header.css";
+@import "footer.css";
+@import "home.css";
+@import "work.css";
+@import "contact.css";
+@import "about.css";
+@import "stats.css";

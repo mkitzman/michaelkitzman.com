@@ -1,6 +1,6 @@
 /*
 This file contains all the CSS you wanted minified and bundled.
-*/
+
 @import "_constants.css";
 @import "footer.css";
 @import "home.css";
@@ -8,3 +8,4 @@ This file contains all the CSS you wanted minified and bundled.
 @import "contact.css";
 @import "about.css";
 @import "stats.css";
+*/
