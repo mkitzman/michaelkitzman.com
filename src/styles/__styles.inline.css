@@ -1,14 +1,8 @@
 /*
 This file contains all the CSS you wanted minified and bundled.
-This file will be inlined.
+These file will be inlined in the <head>
 */
 @import "_constants.css";
 @import "_reset.css";
 @import "app.css";
 @import "header.css";
-@import "footer.css";
-@import "home.css";
-@import "work.css";
-@import "contact.css";
-@import "about.css";
-@import "stats.css";

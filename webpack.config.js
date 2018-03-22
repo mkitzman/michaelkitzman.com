@@ -25,7 +25,7 @@ const plugins = [
         inject: 'body',
         favicon: './src/images/favicon.ico'
     }),
-    //new ExtractTextPlugin('bundle.css'),
+    new ExtractTextPlugin('bundle.css'),
     new StyleLintPlugin({
         files: '**/styles/*.css',
         configFile: '.stylelintrc',
@@ -92,7 +92,7 @@ module.exports = {
                     'postcss-loader'
                 ]
             },
-            /*{
+            {
                 test: /^(?!.*\.inline).*\.css$/,
                 exclude: /node_modules/,
                 use: ExtractTextPlugin.extract({
@@ -107,7 +107,7 @@ module.exports = {
                         'postcss-loader'
                     ]
                 })
-            },*/
+            },
             {
                 test: /\.(png|jp(e*)g||\.ico$|svg)$/,  
                 use: ['file-loader?name=images/[name].[ext]']
