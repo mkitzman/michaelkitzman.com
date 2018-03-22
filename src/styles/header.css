@@ -91,3 +91,18 @@ a.Header-logo-link {
         font-size: var(--font-size-cat);
     }
 }
+
+/* make the background gradient for line at the top of the page
+* looks like its changing colors but changing the background position
+*/
+@keyframes Header-moving-gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}

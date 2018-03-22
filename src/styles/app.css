@@ -104,7 +104,7 @@ h3 {
     }
 }
 
-a:not(.App-animated-anchor) {
+.App-fancy-anchor {
     position: relative;
     display: inline-block;
     padding: 0 .3rem;
@@ -134,5 +134,19 @@ a:not(.App-animated-anchor) {
     .App-grid {
         grid-template-columns: 1fr 80% 1fr;
         grid-template-rows: 6.7rem 1fr 2rem;
+    }
+}
+
+
+/* When page content loads fade in and move up */
+@keyframes App-fade-in-onload {
+    0% {
+        opacity: 0;
+        transform: translateY(45px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
     }
 }

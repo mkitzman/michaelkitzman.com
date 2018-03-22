@@ -23,7 +23,7 @@ const Contact = () => (
                         </a>
                     </li>
                     <li className={'Contact-list-item'}>
-                        <a className={'Contact-link'} href={`https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&fs=1&tf=1&to=${emailAddress}`}>
+                        <a className={'Contact-link App-no-animated-anchor'} href={`https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&fs=1&tf=1&to=${emailAddress}`}>
                             <svg
                                 aria-labelledby={'Contact-gmail-icon'}
                                 role={'img'}

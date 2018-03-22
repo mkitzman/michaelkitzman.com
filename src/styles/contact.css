@@ -27,10 +27,6 @@
     transition: all .2s ease-in;
 }
 
-a.Contact-link {
-    background: none;
-}
-
 .Contact-link {
     &:hover,
     &:focus {

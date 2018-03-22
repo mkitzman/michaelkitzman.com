@@ -19,12 +19,12 @@ const A11y = () => (
         </p>
 
         <p>
-            In building this site, as well as others I strive to conform to the <a href="https://www.w3.org/TR/WCAG20/">level AA compliance for the Web Content Accessibility Guidelines (WCAG) 2.0.</a>
+            In building this site, as well as others I strive to conform to the <a className={'App-fancy-anchor'} href="https://www.w3.org/TR/WCAG20/">level AA compliance for the Web Content Accessibility Guidelines (WCAG) 2.0.</a>
             These are guidelines that explain how to make web content easier to use for people with disabilities.
         </p>
 
         <p>
-            If you find and issues with my site’s accessibility please <a href="https://github.com/mkitzman/michaelkitzman.com/issues">submit it as a Github issue</a> and I will work to fix as quick as possible.
+            If you find and issues with my site’s accessibility please <a className={'App-fancy-anchor'} href="https://github.com/mkitzman/michaelkitzman.com/issues">submit it as a Github issue</a> and I will work to fix as quick as possible.
         </p>
 
     </div>

@@ -12,6 +12,9 @@ import Stats from 'components/Stats';
 import A11y from 'components/A11y';
 import Contact from 'components/Contact';
 
+/* Critical CSS for rendering - inline in <head>*/
+import 'styles/__styles.inline.css';
+/* Normal CSS */
 import 'styles/__styles.css';
 
 class App extends React.Component {
