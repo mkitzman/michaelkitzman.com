@@ -60,11 +60,21 @@ const Work = () => (
         </ul>
 
         <section className={'Work-history'}>
+             <h3 className={'Work-history-title'}>
+                Medallia - Sr. Design Engineer
+            </h3>
+            <h4 className={'Work-history-sub-title'}>
+                April 2018 - Present
+            </h4>
+            <p>
+               Just started!
+            </p>
+
             <h3 className={'Work-history-title'}>
                 Oracle (acquired AddThis) - Principal Front End Engineer
             </h3>
             <h4 className={'Work-history-sub-title'}>
-                March 2015 - Present / 3 years
+                March 2015 - April 2018 / 3 years
             </h4>
             <p>
                 My current role at Oracle I am responsible for front end architecture of a 
