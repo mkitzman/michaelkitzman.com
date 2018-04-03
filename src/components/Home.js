@@ -7,7 +7,7 @@ const Home = () => (
             Hi, I'm Mike Kitzman
         </h2>
         <p>
-            Principal Front-end/UI Developer at Oracle.
+            Sr. Design Engineer at Medallia.
         </p>
         <p>
             I'm passionate about building websites, CSS Architecture at
