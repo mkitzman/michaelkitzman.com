@@ -7,7 +7,8 @@ const Work = () => (
         <ul className={'Work-tech-stack-list'}>
             <li className={'Work-tech-stack-list-item'}>React</li>
             <li className={'Work-tech-stack-list-item'}>Styled Components</li>
-            <li className={'Work-tech-stack-list-item'}>Yarn</li>
+            <li className={'Work-tech-stack-list-item'}>Gatsby</li>
+            <li className={'Work-tech-stack-list-item'}>Yarn</li>    
         </ul>
 
         <h3>Full skill set</h3>
@@ -21,6 +22,7 @@ const Work = () => (
                     <li className={'Work-skills-list-col-list-item'}>TypeScript</li>
                     <li className={'Work-skills-list-col-list-item'}>Redux, Flux</li>
                     <li className={'Work-skills-list-col-list-item'}>Immutable.js</li>
+                    <li className={'Work-skills-list-col-list-item'}>Styled Components</li>      
                     <li className={'Work-skills-list-col-list-item'}>Node.js, Express</li>
                     <li className={'Work-skills-list-col-list-item'}>NPM, Yarn, Git</li>
                     <li className={'Work-skills-list-col-list-item'}>Babel, Webpack, Grunt, Gulp</li>
@@ -50,6 +52,7 @@ const Work = () => (
                 </h4>
                 <ul>
                     <li className={'Work-skills-list-col-list-item'}>Restful APIs</li>
+                    <li className={'Work-skills-list-col-list-item'}>Gatsby</li>
                     <li className={'Work-skills-list-col-list-item'}>PHP</li>
                     <li className={'Work-skills-list-col-list-item'}>CLI, Linux</li>
                     <li className={'Work-skills-list-col-list-item'}>Agile, Kanban, Scrum</li>
