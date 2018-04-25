@@ -6,10 +6,8 @@ const Work = () => (
         <h3>Current Tech Stack</h3>
         <ul className={'Work-tech-stack-list'}>
             <li className={'Work-tech-stack-list-item'}>React</li>
-            <li className={'Work-tech-stack-list-item'}>Redux</li>
-            <li className={'Work-tech-stack-list-item'}>Typescript</li>
-            <li className={'Work-tech-stack-list-item'}>PostCSS</li>
-            <li className={'Work-tech-stack-list-item'}>Webpack</li>
+            <li className={'Work-tech-stack-list-item'}>Styled Components</li>
+            <li className={'Work-tech-stack-list-item'}>Yarn</li>
         </ul>
 
         <h3>Full skill set</h3>
