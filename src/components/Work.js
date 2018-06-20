@@ -68,7 +68,7 @@ const Work = () => (
                 April 2018 - Present
             </h4>
             <p>
-               Just started!
+               Working on the Medallia Design System Alchemy built with React, Styled Components and Gatsby.
             </p>
 
             <h3 className={'Work-history-title'}>
