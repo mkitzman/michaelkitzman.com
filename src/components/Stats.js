@@ -13,37 +13,37 @@ const Stats = () => (
 
         <h3>Network</h3>
         <ul className={'Stats-list'}>
-            <li><span className={'Stats-list-large-stat'}>166kb</span>Page Size</li>
-            <li><span className={'Stats-list-large-stat'}>1.3kb</span>CSS Size</li>
-            <li><span className={'Stats-list-large-stat'}>8</span>Requests</li>
-            <li><span className={'Stats-list-large-stat'}>369ms</span>Load Time (cached)</li>
-            <li><span className={'Stats-list-large-stat'}>614ms</span>Load Time (first visit)</li>
+            <li><dl><dt className={'Stats-list-dt'}>166kb</dt><dd>Page Size</dd></dl></li>
+            <li><dl><dt className={'Stats-list-dt'}>1.3kb</dt><dd>CSS Size</dd></dl></li>
+            <li><dl><dt className={'Stats-list-dt'}>8</dt><dd>Requests</dd></dl></li>
+            <li><dl><dt className={'Stats-list-dt'}>369ms</dt><dd>Load Time (cached)</dd></dl></li>
+            <li><dl><dt className={'Stats-list-dt'}>614ms</dt><dd>Load Time (first visit)</dd></dl></li>
         </ul>
 
         <h3>Lighthouse Audit</h3>
         <ul className={'Stats-list'}>
-            <li><span className={'Stats-list-large-stat'}>92</span>Performance</li>
-            <li><span className={'Stats-list-large-stat'}>100</span>PWA</li>
-            <li><span className={'Stats-list-large-stat'}>100</span>A11Y</li>
-            <li><span className={'Stats-list-large-stat'}>100</span>Best Practices</li>
-            <li><span className={'Stats-list-large-stat'}>100</span>SEO</li>
+            <li><dl><dt className={'Stats-list-dt'}>92</dt><dd>Performance</dd></dl></li>
+            <li><dl><dt className={'Stats-list-dt'}>100</dt><dd>PWA</dd></dl></li>
+            <li><dl><dt className={'Stats-list-dt'}>100</dt><dd>A11Y</dd></dl></li>
+            <li><dl><dt className={'Stats-list-dt'}>100</dt><dd>Best Practices</dd></dl></li>
+            <li><dl><dt className={'Stats-list-dt'}>100</dt><dd>SEO</dd></dl></li>
         </ul>
 
         <h3>WebPagetest</h3>
         <ul className={'Stats-list'}>
-            <li><span className={'Stats-list-large-stat'}>1019</span>Speed Index</li>
-            <li><span className={'Stats-list-large-stat'}>A</span>First Byte Time</li>
-            <li><span className={'Stats-list-large-stat'}>A</span>Keep-alive Enabled</li>
-            <li><span className={'Stats-list-large-stat'}>A</span>Compress Transfer</li>
-            <li><span className={'Stats-list-large-stat'}>NA</span>Compress Images</li>
-            <li><span className={'Stats-list-large-stat'}>A</span>CDN</li>
+            <li><dl><dt className={'Stats-list-dt'}>1019</dt><dd>Speed Index</dd></dl></li>
+            <li><dl><dt className={'Stats-list-dt'}>A</dt><dd>First Byte Time</dd></dl></li>
+            <li><dl><dt className={'Stats-list-dt'}>A</dt><dd>Keep-alive Enabled</dd></dl></li>
+            <li><dl><dt className={'Stats-list-dt'}>A</dt><dd>Compress Transfer</dd></dl></li>
+            <li><dl><dt className={'Stats-list-dt'}>NA</dt><dd>Compress Images</dd></dl></li>
+            <li><dl><dt className={'Stats-list-dt'}>A</dt><dd>CDN</dd></dl></li>
         </ul>
 
         <h3>Misc</h3>
         <ul className={'Stats-list'}>
-            <li><span className={'Stats-list-large-stat'}>0</span>Errors, Warnings <a href="https://search.google.com/structured-data/testing-tool/u/0/#url=https%3A%2F%2Fwww.michaelkitzman.com">(Google Structured Data Test)</a></li>
-            <li><span className={'Stats-list-large-stat'}>0</span>Num AXE A11Y errors</li>
-            <li><span className={'Stats-list-large-stat'}>98</span><a href="http://yellowlab.tools/result/ezfvvom7bk">Yellow Labs Global Score</a></li>
+            <li><dl><dt className={'Stats-list-dt'}>0</dt><dd>Errors, Warnings <a href="https://search.google.com/structured-data/testing-tool/u/0/#url=https%3A%2F%2Fwww.michaelkitzman.com">(Google Structured Data Test)</a></dd></dl></li>
+            <li><dl><dt className={'Stats-list-dt'}>0</dt><dd>Num AXE A11Y errors</dd></dl></li>
+            <li><dl><dt className={'Stats-list-dt'}>98</dt><dd><a href="http://yellowlab.tools/result/ezfvvom7bk">Yellow Labs Global Score</a></dd></dl></li>
         </ul>
     </div>
 );
