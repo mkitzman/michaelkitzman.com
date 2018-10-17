@@ -3,10 +3,10 @@
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 1rem;
     margin-bottom: 2rem;
-    
+
     li {
-        background-color: #2a2929;
-        color: #fff;
+        background-color: #2A2929;
+        color: #FFFFFF;
         padding: 20px;
         height: 185px;
         border-radius: 50%;
