@@ -3,14 +3,14 @@
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 1rem;
     margin-bottom: 2rem;
-    
+
     & dl {
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
     }
-    
+
     & dt {
         font-size: 1.75em;
         line-height: 1;
