@@ -7,7 +7,7 @@ const Home = () => (
             Hi, I'm Mike Kitzman
         </h2>
         <p>
-            Sr. Design Engineer at Medallia.
+            Sr. Design Engineer at Medallia. Previously Oracle, AddThis, Yahoo! Sports
         </p>
         <p>
             I'm passionate about building websites, CSS Architecture at
