@@ -20,14 +20,12 @@ const Work = () => (
                 <ul>
                     <li className={'Work-skills-list-col-list-item'}>React</li>
                     <li className={'Work-skills-list-col-list-item'}>TypeScript</li>
-                    <li className={'Work-skills-list-col-list-item'}>Redux, Flux</li>
-                    <li className={'Work-skills-list-col-list-item'}>Immutable.js</li>
                     <li className={'Work-skills-list-col-list-item'}>Styled Components</li>      
+                    <li className={'Work-skills-list-col-list-item'}>React Testing Library</li>                   
+                    <li className={'Work-skills-list-col-list-item'}>Yarn</li>
+                    <li className={'Work-skills-list-col-list-item'}>Git</li>
                     <li className={'Work-skills-list-col-list-item'}>Node.js, Express</li>
-                    <li className={'Work-skills-list-col-list-item'}>NPM, Yarn, Git</li>
-                    <li className={'Work-skills-list-col-list-item'}>Babel, Webpack, Grunt, Gulp</li>
-                    <li className={'Work-skills-list-col-list-item'}>Mustache</li>
-                    <li className={'Work-skills-list-col-list-item'}>Jasmine, Mocha, Chai</li>                   
+                    <li className={'Work-skills-list-col-list-item'}>Webpack</li>
                 </ul>
             </li>
             <li className={'Work-skills-list-item'}>
@@ -35,10 +33,10 @@ const Work = () => (
                     User Interface
                 </h4>
                 <ul>
-                    <li className={'Work-skills-list-col-list-item'}>HTML</li>
+                    <li className={'Work-skills-list-col-list-item'}>HTML5</li>
                     <li className={'Work-skills-list-col-list-item'}>CSS3 (PostCSS, SCSS, LESS)</li>
-                    <li className={'Work-skills-list-col-list-item'}>Performance</li>
                     <li className={'Work-skills-list-col-list-item'}>Responsive & Adaptive Web Design</li>
+                    <li className={'Work-skills-list-col-list-item'}>Performance</li>
                     <li className={'Work-skills-list-col-list-item'}>Semantic Markup</li>
                     <li className={'Work-skills-list-col-list-item'}>Coding Standards</li>
                     <li className={'Work-skills-list-col-list-item'}>Cross Browser Compatibility</li>
@@ -67,9 +65,12 @@ const Work = () => (
             <h4 className={'Work-history-sub-title'}>
                 April 2018 - Present
             </h4>
-            <p>
-               Working on the Medallia Design System Alchemy built with React, Styled Components and Gatsby.
-            </p>
+            <p>Working on the Alchemy design system used across Medallia and its acquired companies. The design system is built in React and Typescript using Styled-components, tested with React Testing Library and documented on a Gatsby website.</p>
+            <p>Part of a small team that created the component library from scratch. Because of our work Medallia has been able to unite design across their websites by utilizing our pre-made UI React components and elements.</p>
+            <p>Creating a new component allowed me to grow several skill sets beyond my core skills including API design, accessibility with a minimum WCAG 2.0 AA compliance and comprehensive testing using React Testing Library.</p>
+            <p>Extensively documented all components I worked on including examples.</p>
+            <p>Working closely with design on implementing their mocks to insure that they stay true to the design but also take into account possible browser, accessibility and ux issues that may arise.</p>
+            <p>Helped teams onboard to Alchemy by answering questions, code reviews, debugging issues and adding requested features.</p>
 
             <h3 className={'Work-history-title'}>
                 Oracle (acquired AddThis) - Principal Front End Engineer
@@ -77,30 +78,20 @@ const Work = () => (
             <h4 className={'Work-history-sub-title'}>
                 March 2015 - April 2018 / 3 years
             </h4>
-            <p>
-                My current role at Oracle I am responsible for front end architecture of a 
-                new product being built using React/Redux/Typscript/PostCSS. I work closely
-                with design and product to work out ideas and possibilities. I'm part of a team responsible 
-                for creating and maintaining code that is on millions of websites that see billions of 
-                page views a month. Because so many sites use our tools we have to be extremely aware 
-                of performance and how to not mess up the customer's page. I'm the go to expert on 
-                the team for CSS/SCSS, HTML and Accessibility.
-            </p>
+            <p>Work closely with designers to implement their mocks for an application where users configure banners and alerts they want to show up on different sites.</p>
+            <p>Used Project and Product Manager skills such as feature creation, handling estimations, task creation and communication of status to other teams.</p>
+            <p>Mentored Junior developers</p>
+            <p>Code reviews, testing and overall application architecture.</p>
             <h3 className={'Work-history-title'}>
                 Yahoo - Front End Engineer
             </h3>
             <h4 className={'Work-history-sub-title'}>
                 May 2007 - March 2015 / 8 Years
             </h4>
-            <p>
-                At Yahoo I help build the number one Fantasy Sports website on the Internet. 
-                I create amazing user focused products with PHP, HTML, JavaScript and CSS, web 
-                standards and the latest web development techniques to create cross browser/device 
-                supported web sites that are also accessible to disabled users. My code is optimized, 
-                efficient and scalable enough to support thousands of requests a second. I also help 
-                onboard new hires, mentor interns, lead user studies and work with product to come up 
-                with and implement features. 
-            </p>
+            <p>Worked on a team that built the number one Fantasy Sports website on the Internet.</p>
+            <p>Created amazing user focused products with PHP, HTML, JavaScript and CSS, web standards and the latest web development techniques to create cross browser/device supported web sites that are also accessible to disabled users. </p>
+            <p>Wrote code that was optimized, efficient and scalable enough to support thousands of requests a second.</p>
+            <p>Onboard new hires, mentor interns, lead user studies and work with product to come up with and implement features.</p>
 
             <h3 className={'Work-history-title'}>
                 RealtyTrac - Lead Web Developer
@@ -108,29 +99,15 @@ const Work = () => (
             <h4 className={'Work-history-sub-title'}>
                 February 2006 - May 2007 / 1 year 4 months
             </h4>
-            <p>
-                Lead developer and manager of a group responsible for the front-end of Realtytrac.com.
-                I developed code using ASP, HTML, CSS and JavaScript. I spearheaded RealtyTrac's movement
-                to web standards and accessibility. I reported to the CTO and was responsible for making
-                sure that all front-end tasks related to the RealtyTrac.com website, intranet and email
-                campaigns were scheduled and completed on time by my team or me.
-            </p>
+            <p>Lead developer and manager of a group responsible for the front-end of Realtytrac.com. I developed code using ASP, HTML, CSS and JavaScript. I spearheaded RealtyTrac's movement to web standards and accessibility. I reported to the CTO and was responsible for making sure that all front-end tasks related to the RealtyTrac.com website, intranet and email campaigns were scheduled and completed on time by my team or me.</p>
+
             <h3 className={'Work-history-title'}>
-                Autobytel - Lead Web Developer
+                Autobytel - QA Engineer > Lead Web Development Engineer > Manager, Consumer Web
             </h3>
             <h4 className={'Work-history-sub-title'}>
                 November 1997 - September 2005 / 8 Years
             </h4>
-            <p>
-                In this position I was lead developer and manager of a group of web developers responsible 
-                for the front and backend of Autobytel.com. In addition to working on the code I was also 
-                responsible for deploying the code to production, making sure all the team members had 
-                work allocated, were on schedule and interfacing with other departments needing work done 
-                from our group. I was responsible for the front and back end development of Autobytel.com. 
-                Front-end work was built with Coldfusion, HTML, CSS and JavaScript. For the back end I 
-                wrote optimized production ready stored procedures in SQL and created the data access interface. 
-                I also had an integral part in the architecture of the site including database design.
-            </p>
+            <p>Started out with no web experience as a QA Engineer responsible for ensuring the quality of the Autobytel.com website. While working as QA Engineer I took the initiative to learn Coldfusion and HTML on my own time enabling me to be promoted to developer. From there I went on to be lead developer and finally Manager/Developer in charge of a team responsible for the code for the website.</p>
         </section>
     </div>
 );
