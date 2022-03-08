@@ -7,7 +7,7 @@ const About = () => (
         <div className={'About-content'}>
             <img className={'About-profile-photo'} src={profilephoto} alt={'Michael Kitzman profile photo'} />
             <p>
-                I&apos;m a Front-End Engineer with over 20 years of experience building web sites viewed by billions of people. I work with CSS, JavaScript and HTML.
+                I&apos;m a Frontend Engineer with extensive experience building web sites viewed by billions of people. I work with CSS, JavaScript and HTML.
             </p>
             <p>
                 On a personal side I love sports ( Broncos, Lakers, Chelsea, Nationals, Capitals) 
