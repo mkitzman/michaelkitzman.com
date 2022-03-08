@@ -7,15 +7,13 @@ const Home = () => (
             Hi, I'm Mike Kitzman
         </h2>
         <p>
-            Sr. Design Engineer at Medallia. Previously Oracle, AddThis, Yahoo! Sports
+            Sr. Frontend Engineer at Medallia. Previously Oracle, AddThis, Yahoo! Sports
         </p>
         <p>
-            I'm passionate about building websites, CSS Architecture at
-            scale, UX, Accessibility, inclusive design, UI Interactions, 
-            semantic markup, and performance.
+            I primarily work in React, Typescript, CSS and HTML. I'm passionate about web-based UX paradigms, progressive enhancement, responsive design, internationalization, localization, design systems, and accessibility.
         </p>
         <p>
-            I have over 20 years of experience building web sites viewed by <strong>billions of people</strong>.
+            I have extensive experience building web sites viewed by <strong>billions of people</strong>.
         </p>
 
         <p>
