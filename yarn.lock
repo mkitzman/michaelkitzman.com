@@ -751,10 +751,10 @@
   resolved "https://registry.yarnpkg.com/@pagefind/darwin-x64/-/darwin-x64-1.1.1.tgz#a238631d406b8d9ae2bc35e049f5781fc492a6d6"
   integrity sha512-ChohLQ39dLwaxQv0jIQB/SavP3TM5K5ENfDTqIdzLkmfs3+JlzSDyQKcJFjTHYcCzQOZVeieeGq8PdqvLJxJxQ==
 
-"@pagefind/default-ui@^1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@pagefind/default-ui/-/default-ui-1.1.1.tgz#ba6c0f1f46f5a548ca3a79e79d3d9c400e783238"
-  integrity sha512-ZM0zDatWDnac/VGHhQCiM7UgA4ca8jpjA+VfuTJyHJBaxGqZMQnm4WoTz9E0KFcue1Bh9kxpu7uWFZfwpZZk0A==
+"@pagefind/default-ui@^1.3.0":
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/@pagefind/default-ui/-/default-ui-1.3.0.tgz#e3fb585d2fb08d463a8abc3c8f430420f0310109"
+  integrity sha512-CGKT9ccd3+oRK6STXGgfH+m0DbOKayX6QGlq38TfE1ZfUcPc5+ulTuzDbZUnMo+bubsEOIypm4Pl2iEyzZ1cNg==
 
 "@pagefind/linux-arm64@1.1.1":
   version "1.1.1"
