@@ -1,0 +1,59 @@
+---
+import PageLayout from "@/layouts/Base.astro";
+
+const meta = {
+	description: "Side projects and personal apps built by Michael Kitzman.",
+	title: "Projects",
+};
+
+const projects = [
+	{
+		title: "BonsaiBudget",
+		href: "https://bonsaibudget.app",
+		description:
+			"A minimalist personal finance app for tracking subscriptions, bills, and one-time expenses against your monthly income. Built around the 50/30/20 budget framework with real-time cloud sync, dark/light mode, and themeable color palettes.",
+		tech: ["Vue 3", "Vite", "Firebase Firestore", "Firebase Auth", "Chart.js", "Netlify"],
+	},
+	{
+		title: "LastKnownPhoto",
+		href: "https://lastknownphoto.com",
+		description:
+			"An art project and curated archive of the final known photographs of public figures. By focusing on ordinary last photos — taken in grocery stores, on sidewalks, or during rehearsals — it strips away the spectacle to find the humanity that remains — and encourages you to look at your own unremarkable day with a little more attention.",
+		tech: ["Vue 3", "Vite", "Vue Router", "Leaflet", "TypeScript", "Netlify"],
+	},
+];
+---
+
+<PageLayout meta={meta}>
+	<div class="space-y-6">
+		<h1 class="title">Projects</h1>
+		<p>
+			A collection of side projects I've built and maintain. These are personal tools and creative
+			outlets — built for fun, to learn something new, or to scratch my own itch.
+		</p>
+		<section class="mt-8 space-y-10">
+			{
+				projects.map(({ title, href, description, tech }) => (
+					<div>
+						<a
+							class="cactus-link text-lg font-bold"
+							href={href}
+							rel="noreferrer"
+							target="_blank"
+						>
+							{title}
+						</a>
+						<p class="mt-2">{description}</p>
+						<ul class="mt-2 flex flex-wrap gap-2">
+							{tech.map((t) => (
+								<li class="rounded bg-accent/10 px-2 py-0.5 text-xs font-medium text-accent">
+									{t}
+								</li>
+							))}
+						</ul>
+					</div>
+				))
+			}
+		</section>
+	</div>
+</PageLayout>
