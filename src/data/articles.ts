@@ -6,6 +6,20 @@ const articles: {
 	source: string;
 }[] = [	
 	{
+		title: "A Hockey Dad, a Cartel, and a $12 Million Fraud",
+		desc: "Kota Youngblood told his neighbors there were hits out on their lives — and only he could save them",
+		href: "https://www.rollingstone.com/culture/culture-features/kota-youngblood-12-million-fraud-1235511404/",
+		date: "February, 2026",
+		source: "Rolling Stone",
+	},
+	{
+		title: "He Leaked the Secrets of a Southeast Asian Scam Compound. Then He Had to Get Out Alive",
+		desc: "A source trapped inside an industrial-scale scamming operation contacted me, determined to expose his captors’ crimes—and then escape. This is his story.",
+		href: "https://www.wired.com/story/he-leaked-the-secrets-southeast-asian-scam-compound-then-had-to-get-out-alive/",
+		date: "January, 2026",
+		source: "Wired",
+	},
+	{
 		title: "Cryptobiosis, or",
 		desc: "What Will Happen to All Our Emails When We Die",
 		href: "https://www.emptysetmag.com/articles/cryptobiosis",
