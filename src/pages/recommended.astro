@@ -1,18 +1,24 @@
 ---
 import PageLayout from "@/layouts/Base.astro";
 import { getAllArticles } from "@/data/articles";
+import { getAllTechArticles } from "@/data/techArticles";
 const allArticles = await getAllArticles();
+const allTechArticles = await getAllTechArticles();
 
 const meta = {
-	description: "A collection of articles and other things I like..",
-	title: "recommended",
+	description: "A collection of recommended articles and tech reads.",
+	title: "Reading",
 };
 ---
 
 <PageLayout meta={meta}>
 	<div class="space-y-6">
-		<h1 class="title">Articles</h1>
-		<section class="mt-16">
+		<h1 class="title">Recommended Reading</h1>
+		<nav class="reading-tabs flex gap-2" aria-label="Reading categories">
+			<button class="reading-tab active" data-tab="articles" type="button">Articles</button>
+			<button class="reading-tab" data-tab="tech" type="button">Tech Articles</button>
+		</nav>
+		<section id="tab-articles" class="mt-8">
 			<ul class="space-y-4">
 				{
 					allArticles.map(({ desc, href, title, date, source }) => (
@@ -34,5 +40,77 @@ const meta = {
 				}
 			</ul>
 		</section>
+		<section id="tab-tech" class="mt-8 hidden">
+			<ul class="space-y-4">
+				{
+					allTechArticles.map(({ desc, href, title, date, source, author }) => (
+						<li class="mb-8">
+							<a
+								class="cactus-link whitespace-nowrap font-bold"
+								href={href}
+								rel="noreferrer"
+								target="_blank"
+							>
+								{title}
+							</a>
+							<p class="mt-2">{desc}</p>
+							<span class="text-xs italic">
+								{date} - {author ? author + " - " : ""} {source}
+							</span>
+						</li>
+					))
+				}
+			</ul>
+		</section>
 	</div>
 </PageLayout>
+
+<style>
+	.reading-tabs {
+		padding-left: 0;
+	}
+
+	.reading-tab {
+		padding: 0.375rem 1rem;
+		border-radius: 9999px;
+		font-size: 0.875rem;
+		font-weight: 500;
+		cursor: pointer;
+		border: 1px solid hsl(var(--theme-accent));
+		background: transparent;
+		color: hsl(var(--theme-accent));
+		opacity: 0.6;
+		transition: all 0.2s;
+	}
+
+	.reading-tab:hover {
+		opacity: 0.8;
+	}
+
+	.reading-tab.active {
+		background: hsl(var(--theme-accent));
+		color: hsl(var(--theme-bg));
+		opacity: 1;
+	}
+</style>
+
+<script>
+	const tabs = document.querySelectorAll<HTMLButtonElement>(".reading-tab");
+	const sections: Record<string, HTMLElement | null> = {
+		articles: document.getElementById("tab-articles"),
+		tech: document.getElementById("tab-tech"),
+	};
+
+	tabs.forEach((tab) => {
+		tab.addEventListener("click", () => {
+			const target = tab.dataset.tab!;
+
+			tabs.forEach((t) => t.classList.remove("active"));
+			tab.classList.add("active");
+
+			Object.entries(sections).forEach(([key, el]) => {
+				if (el) el.classList.toggle("hidden", key !== target);
+			});
+		});
+	});
+</script>

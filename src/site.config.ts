@@ -40,12 +40,8 @@ export const menuLinks: { path: string; title: string }[] = [
 		title: "About",
 	},
 	{
-		path: "/techArticles/",
-		title: "Tech Articles",
-	},
-	{
 		path: "/recommended/",
-		title: "Recommended",
+		title: "Recommended Reading",
 	},
 	{
 		path: "/projects/",
