@@ -7,6 +7,14 @@ const techArticles: {
 	author: string;
 }[] = [	
     {
+        title: "The era of AI malaise",
+        desc: "AI is everywhere, all at once. How does that make you feel?",
+        href: "https://www.technologyreview.com/2026/04/21/1135921/ai-malaise-artificial-intelligence-public-sentiment/",
+        date: "April, 2026",
+        author: "Mat Honan",
+        source: "MIT Technology Review",
+    },
+    {
         title: "Dreams of Stability",
         desc: "Tech's New Corporate & the status in safety nets.",
         href: "https://www.workingtheorys.com/p/stability",
