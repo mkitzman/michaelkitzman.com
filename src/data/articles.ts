@@ -6,6 +6,13 @@ const articles: {
 	source: string;
 }[] = [	
 	{
+		title: "What I Learned About Billionaires at Jeff Bezos's Private Retreat",
+		desc: "For the richest men on Earth, everything is free and nothing matters.",
+		href: "https://www.theatlantic.com/magazine/2026/05/billionaire-consequence-free-reality/686588/",
+		date: "April, 2026",
+		source: "The Atlantic",
+	},
+	{
 		title: "A Hockey Dad, a Cartel, and a $12 Million Fraud",
 		desc: "Kota Youngblood told his neighbors there were hits out on their lives — and only he could save them",
 		href: "https://www.rollingstone.com/culture/culture-features/kota-youngblood-12-million-fraud-1235511404/",

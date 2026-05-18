@@ -7,6 +7,14 @@ const techArticles: {
 	author: string;
 }[] = [	
     {
+        title: "The Shared Feeling of Being Harvested by the Future",
+        desc: "In the United States, Silicon Valley tech elites identify as high agency, while the rest of us are bots condemned to the permanent underclass.",
+        href: "https://www.nytimes.com/2026/05/12/opinion/us-china-ai-future.html",
+        date: "May, 2026",
+        author: "Yi-Ling Liu",
+        source: "New York Times",
+    },
+    {
         title: "The era of AI malaise",
         desc: "AI is everywhere, all at once. How does that make you feel?",
         href: "https://www.technologyreview.com/2026/04/21/1135921/ai-malaise-artificial-intelligence-public-sentiment/",
