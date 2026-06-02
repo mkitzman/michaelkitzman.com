@@ -7,6 +7,22 @@ const techArticles: {
 	author: string;
 }[] = [	
     {
+        title: "The Internet Has Become Too American to Trust",
+        desc: "Trump and Big Tech have fused into a new kind of threat",
+        href: "https://thewalrus.ca/the-internet-has-become-too-american-to-trust",
+        date: "May, 2026",
+        author: "Cory Doctrow",
+        source: "thewalrus.ca",
+    },
+    {
+        title: "🌻 notes on AI, labor, and China",
+        desc: "an expansion pack for my NYT story on the \"permanent underclass\"",
+        href: "https://jasmi.news/p/party-in-the-permanent-underclass",
+        date: "May, 2026",
+        author: "Jasmine Sun",
+        source: "jasmi.news",
+    },
+    {
         title: "The Shared Feeling of Being Harvested by the Future",
         desc: "In the United States, Silicon Valley tech elites identify as high agency, while the rest of us are bots condemned to the permanent underclass.",
         href: "https://www.nytimes.com/2026/05/12/opinion/us-china-ai-future.html",
