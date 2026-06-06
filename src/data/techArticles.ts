@@ -7,6 +7,14 @@ const techArticles: {
 	author: string;
 }[] = [	
     {
+        title: "The Feed Is Fake",
+        desc: "That “viral” song, movie, meme, influencer, and celebrity drama was probably the product of a stealth marketing campaign.",
+        href: "https://www.vulture.com/article/social-media-feeds-chaotic-good-projects-clipping.html",
+        date: "May, 2026",
+        author: "Lane Brown",
+        source: "vulture.com",
+    },
+    {
         title: "The Internet Has Become Too American to Trust",
         desc: "Trump and Big Tech have fused into a new kind of threat",
         href: "https://thewalrus.ca/the-internet-has-become-too-american-to-trust",

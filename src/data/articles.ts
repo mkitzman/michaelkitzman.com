@@ -6,6 +6,13 @@ const articles: {
 	source: string;
 }[] = [	
 	{
+		title: "Free Ben & Jerry’s!",
+		desc: "Ben Cohen says his company is being strangled. Is he the last holdout of hippie capitalism or a compulsive contrarian?",
+		href: "https://nymag.com/intelligencer/article/ben-and-jerrys-ben-cohen-unilever-magnum.html",
+		date: "June, 2026",
+		source: "New York Magazine",
+	},
+	{
 		title: "What I Learned About Billionaires at Jeff Bezos's Private Retreat",
 		desc: "For the richest men on Earth, everything is free and nothing matters.",
 		href: "https://www.theatlantic.com/magazine/2026/05/billionaire-consequence-free-reality/686588/",
