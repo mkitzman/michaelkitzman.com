@@ -6,7 +6,28 @@ const articles: {
 	source: string;
 }[] = [	
 	{
-		title: "Free Ben & Jerry’s!",
+		title: "What If It All Came Out?",
+		desc: "We're each attached to years of texts, searches, and photos, an archive of humiliation that could detonate at any time.",
+		href: "https://nymag.com/intelligencer/article/your-digital-self-is-vulnerable.html",
+		date: "June, 2026",
+		source: "Intelligencer",
+	},
+	{
+		title: "The Ordinary Miracle of Existing",
+		desc: "Being alive at all is the most extraordinary stroke of good luck any of us will ever experience.",
+		href: "https://www.theatlantic.com/philosophy/2026/06/the-ordinary-miracle-of-existing/687351/",
+		date: "June, 2026",
+		source: "The Atlantic",
+	},
+	{
+		title: "Sam Bankman-Fried's Prison Experiment",
+		desc: "His life behind bars and his desperate campaign to get free.",
+		href: "https://nymag.com/intelligencer/article/sam-bankman-fried-prison-donald-trump-pardon-appeal.html",
+		date: "June, 2026",
+		source: "Intelligencer",
+	},
+	{
+		title: "Free Ben & Jerry's!",
 		desc: "Ben Cohen says his company is being strangled. Is he the last holdout of hippie capitalism or a compulsive contrarian?",
 		href: "https://nymag.com/intelligencer/article/ben-and-jerrys-ben-cohen-unilever-magnum.html",
 		date: "June, 2026",
