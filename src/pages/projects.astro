@@ -8,6 +8,13 @@ const meta = {
 
 const projects = [
 	{
+		title: "Riff Lord (working name)",
+		href: "https://guitar-cheat-sheet.netlify.app/",
+		description:
+			"An all-in-one playground for guitarists to explore keys, scales, and modes, then turn theory into practice with built-in exercises, tabs, and chord shapes. Everything you need to master the fretboard, all on a single page.",
+		tech: ["Vue 3", "Vite", "TypeScript", "Vitest", "PostCSS", "Netlify"],
+	},
+	{
 		title: "Bonsai Budget",
 		href: "https://bonsaibudget.app",
 		description:
@@ -18,13 +25,13 @@ const projects = [
 		title: "Last Known Photo",
 		href: "https://lastknownphoto.com",
 		description:
-			"An art project and curated archive of the final known photographs of public figures. By focusing on ordinary last photos — taken in grocery stores, on sidewalks, or during rehearsals — it strips away the spectacle to find the humanity that remains — and encourages you to look at your own unremarkable day with a little more attention.",
+			"An art project and curated archive of the final known photographs of public figures. By focusing on ordinary last photos, taken in grocery stores, on sidewalks, or during rehearsals, it strips away the spectacle to find the humanity that remains, and encourages you to look at your own unremarkable day with a little more attention.",
 		tech: ["Vue 3", "Vite", "Vue Router", "Leaflet", "TypeScript", "Netlify"],
 	},
 	{
 		title: "Stormdestroyer",
 		href: "https://stormdestroyer.com",
-		description: "",
+		description: "Coming Soon?",
 		tech: ["Vue 3", "Vite", "Vue Router", "TypeScript", "Netlify"],
 	},
 ];
@@ -35,7 +42,7 @@ const projects = [
 		<h1 class="title">Projects</h1>
 		<p>
 			A collection of side projects I've built and maintain. These are personal tools and creative
-			outlets — built for fun, to learn something new, or to scratch my own itch.
+			outlets, built for fun, to learn something new, or to scratch my own itch.
 		</p>
 		<section class="mt-8 space-y-10">
 			{
@@ -52,7 +59,7 @@ const projects = [
 						<p class="mt-2">{description}</p>
 						<ul class="mt-2 flex flex-wrap gap-2">
 							{tech.map((t) => (
-								<li class="rounded bg-accent/10 px-2 py-0.5 text-xs font-medium text-accent">
+								<li class="rounded border border-accent/40 px-2 py-0.5 text-xs font-medium text-accent">
 									{t}
 								</li>
 							))}

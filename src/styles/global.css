@@ -18,15 +18,16 @@
 	}
 
 	:root[data-theme="dark"] {
+		/* Lakers City Edition: black base, gold lettering, purple accents */
 		color-scheme: dark;
-		--theme-bg: 210deg 6% 12%;
-		--theme-link: 330deg 49% 67%;
-		--theme-text: 220deg 3% 79%;
-		--theme-accent: 159deg 64% 45%;
-		--theme-accent-2: 0deg 0% 93%;
-		--theme-quote: 102deg 100% 86%;
-		--cactus-link: #d8a031; /* ally Chelsea Gold */
-		--nav-link: #ff334e; /* a11y Chelsea Red */
+		--theme-bg: 260deg 24% 9%; /* Lakers black (purple-tinted) */
+		--theme-link: 41deg 96% 58%; /* gold (link hover underline) */
+		--theme-text: 250deg 12% 86%;
+		--theme-accent: 265deg 60% 72%; /* Lakers purple, lightened for contrast */
+		--theme-accent-2: 0deg 0% 93%; /* headings: off-white */
+		--theme-quote: 266deg 50% 80%; /* soft lavender */
+		--cactus-link: #fdb927; /* Lakers gold */
+		--nav-link: #fdb927; /* Lakers gold */
 	}
 }
 
