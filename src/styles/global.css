@@ -54,6 +54,13 @@ nav a {
 	margin-right: 10px;
 }
 
+/* The logo hat is the only saturated part of the (grayscale) skull, so a hue
+   rotation recolors the hat per theme without affecting the skull. Blue suits
+   the Chelsea light theme; shift toward Lakers purple in dark mode. */
+:root[data-theme="dark"] .header-logo {
+	filter: hue-rotate(55deg);
+}
+
 .header-icons button {
 	width: 30px;
 	height: 30px;
