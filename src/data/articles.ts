@@ -4,7 +4,16 @@ const articles: {
 	href: string;
 	date: string;
 	source: string;
-}[] = [	
+}[] = [
+	{
+		title:
+			"Black Death, COVID, and Why We Keep Telling the Myth of a Renaissance Golden Age and Bad Middle Ages",
+		desc: "If the Black Death caused the Renaissance, will COVID also create a golden age?",
+		href: "https://www.exurbe.com/black-death-covid-and-why-we-keep-telling-the-myth-of-a-renaissance-golden-age-and-bad-middle-ages/",
+		date: "June, 2020",
+		source: "exurbe.com",
+	},
+
 	{
 		title: "What If It All Came Out?",
 		desc: "We're each attached to years of texts, searches, and photos, an archive of humiliation that could detonate at any time.",
@@ -48,7 +57,8 @@ const articles: {
 		source: "Rolling Stone",
 	},
 	{
-		title: "He Leaked the Secrets of a Southeast Asian Scam Compound. Then He Had to Get Out Alive",
+		title:
+			"He Leaked the Secrets of a Southeast Asian Scam Compound. Then He Had to Get Out Alive",
 		desc: "A source trapped inside an industrial-scale scamming operation contacted me, determined to expose his captors’ crimes—and then escape. This is his story.",
 		href: "https://www.wired.com/story/he-leaked-the-secrets-southeast-asian-scam-compound-then-had-to-get-out-alive/",
 		date: "January, 2026",
@@ -62,7 +72,8 @@ const articles: {
 		source: "emptysetmag.com",
 	},
 	{
-		title: "He called himself an 'untouchable hacker god'. But who was behind the biggest crime Finland has ever known?",
+		title:
+			"He called himself an 'untouchable hacker god'. But who was behind the biggest crime Finland has ever known?",
 		desc: "How would you feel if your therapist's notes - your darkest thoughts and deepest feelings - were exposed to the world? For 33,000 Finnish people, that became a terrifying reality, with deadly consequences",
 		href: "https://www.theguardian.com/technology/2026/jan/17/vastaamo-hack-finland-therapy-notes",
 		date: "January, 2026",
@@ -81,14 +92,14 @@ const articles: {
 		href: "https://harpers.org/archive/2026/02/on-tilt-america-gambling-epidemic-jasper-craven/",
 		date: "February, 2026",
 		source: "Harper's Magazine",
-	},	
+	},
 	{
 		title: "Life on Peptides Feels Amazing ",
 		desc: "Says everyone who's buying from looksmaxxers on Instagram or AI bots in China and injecting them into their bloodstream.",
 		href: "https://nymag.com/intelligencer/article/peptides-from-instagram-china-wellness-cure.html",
 		date: "January, 2026",
 		source: "New York Magazine",
-	},	
+	},
 	{
 		title: "Becoming a Centenarian",
 		desc: "Like The New Yorker, I was born in 1925. Somewhat to my surprise, I decided to keep a journal of my hundredth year.",
@@ -125,7 +136,8 @@ const articles: {
 		source: "NY Times",
 	},
 	{
-		title: "Country Music Casualty: The Tortured Life and Untimely Death of Luke Bell",
+		title:
+			"Country Music Casualty: The Tortured Life and Untimely Death of Luke Bell",
 		desc: "The country singer was poised to be the next big thing, but his struggle with mental illness left him lost, alone, and on a path of self-destruction",
 		href: "https://www.rollingstone.com/music/music-features/luke-bell-country-singer-death-mental-health-1235460143/",
 		date: "November, 2025",
@@ -188,70 +200,74 @@ const articles: {
 		source: "New York Magazine",
 	},
 	{
-		title: "It Was Already One of Texas's Strangest Cold Cases. Then a Secretive Figure Appeared.",
+		title:
+			"It Was Already One of Texas's Strangest Cold Cases. Then a Secretive Figure Appeared.",
 		desc: "Jason Landry's disappearance confounded the state's top investigators. When thousands of online sleuths got involved, intrigue turned into obsession.",
 		href: "https://www.texasmonthly.com/true-crime/jason-landry-missing-person-texas",
 		date: "July 2025",
 		source: "Texas Monthly",
-	}, 
+	},
 	{
 		title: "The General Theory of Enshittification",
 		desc: "It isn't a new phenomenon, but it seems to matter more",
 		href: "https://paulkrugman.substack.com/p/the-general-theory-of-enshittification",
 		date: "July 2025",
 		source: "Paul Krugman Substack",
-	}, 
+	},
 	{
 		title: "The Epic Rise and Fall of a Dark-Web Psychedelics Kingpin",
 		desc: "Interdimensional travel, sex with aliens, communion with God. Anything is possible with just a sprinkle of DMT. Akasha Song's secret labs made millions of doses—and dollars—until the feds showed up.",
 		href: "https://www.wired.com/story/rise-fall-dark-web-psychedelics-kingpin-dmt/",
 		date: "May 2025",
 		source: "Wired",
-	}, 
+	},
 	{
 		title: "Is This the Worst-Ever Era of American Pop Culture?",
 		desc: "Meet the critics who believe the arts are in terminal decline.",
 		href: "https://archive.is/EFEGh",
 		date: "May 2025",
 		source: "The Atlantic",
-	}, 
+	},
 	{
-		title: "Inside the Very Peculiar and Wildly Popular World of Armored Medieval Combat",
+		title:
+			"Inside the Very Peculiar and Wildly Popular World of Armored Medieval Combat",
 		desc: "Across America, in front of crowds of thousands, men and women are dressing up as knights from the Middle Ages and fighting one another. The weapons, violence, and chivalry are all real.",
 		href: "https://www.esquire.com/sports/a64742755/what-is-armored-mma-medieval-combat/",
 		date: "May 2025",
 		source: "Esquire",
-	}, 
+	},
 
 	{
-		title: "Bad Dojo: Tiger Schulmann Didn't Get to Be America's No. 1 Karate Kingpin Without Busting a Few Faces",
+		title:
+			"Bad Dojo: Tiger Schulmann Didn't Get to Be America's No. 1 Karate Kingpin Without Busting a Few Faces",
 		desc: "Former senseis and business partners accuse Schulmann of building his $35-million-a-year martial-arts empire with Mafia tactics. What, you expect him to apologize?",
 		href: "https://www.esquire.com/sports/a64452970/tiger-schulmann-martial-arts-empire-interview-2025/",
 		date: "April 2025",
 		source: "Esquire",
-	}, 
-    {
+	},
+	{
 		title: "Behind F1's Velvet Curtain",
 		desc: "If you wanted to turn someone into a socialist you could do it in about an hour by taking them for a spin around the paddock of a Formula 1 race. The kind of money I saw will haunt me forever.",
 		href: "https://web.archive.org/web/20240301170542/https://www.roadandtrack.com/car-culture/a46975496/behind-f1-velvet-curtain/",
 		date: "March 2024",
 		source: "Road & Track",
-	}, 
-	
+	},
+
 	{
 		title: "They Played Football as Children. Now Their Families Mourn",
 		desc: "They gave up the game after high school, but the damage seemingly was already done. Now, their families mourn and look for answers",
 		href: "https://www.rollingstone.com/culture/culture-features/cte-impact-young-football-players-1234804580/?src=longreads",
 		date: "September 2023",
 		source: "Rolling Stone",
-	}, 
+	},
 	{
-		title: "They Stole Yogi Berra's World Series Rings. Then They Did Something Really Crazy.",
+		title:
+			"They Stole Yogi Berra's World Series Rings. Then They Did Something Really Crazy.",
 		desc: "The childhood friends behind the most audacious string of sports-memorabilia heists in American history",
 		href: "https://www.theatlantic.com/magazine/archive/2025/02/sports-memorabilia-heist-yogi-berra-world-series-rings/681093/",
 		date: "January 2025",
 		source: "The Atlantic",
-	},    
+	},
 	{
 		title: "`I literally can't stop.` The descent of a modern sports fan",
 		desc: "A sobering snapshot of what being a sports fan can look like in this fledgling era of app-based betting.",
@@ -260,7 +276,8 @@ const articles: {
 		source: "The Athletic",
 	},
 	{
-		title: "Ozempic Could Crush the Junk Food Industry. But It Is Fighting Back.",
+		title:
+			"Ozempic Could Crush the Junk Food Industry. But It Is Fighting Back.",
 		desc: "As revolutionary new weight-loss drugs turn consumers off ultraprocessed foods, the industry is on the hunt for new products.",
 		href: "https://www.nytimes.com/2024/11/19/magazine/ozempic-junk-food.html",
 		date: "September 2024",
@@ -296,7 +313,8 @@ const articles: {
 		source: "New Yorker",
 	},
 	{
-		title: "I Gave Myself a Month to Make One New Friend. How Hard Could That Be?",
+		title:
+			"I Gave Myself a Month to Make One New Friend. How Hard Could That Be?",
 		desc: "Americans have become terrible at forming and keeping friendships. But there must be somebody out there who wants to grab a burrito with me.",
 		href: "https://www.esquire.com/lifestyle/a61536364/one-friend-in-one-month/",
 		date: "July 2024",
@@ -361,7 +379,8 @@ const articles: {
 		source: "NY Times",
 	},
 	{
-		title: "How an Alleged Con Man Tore Apart One of the Nineties' Biggest Bands",
+		title:
+			"How an Alleged Con Man Tore Apart One of the Nineties' Biggest Bands",
 		desc: "Live had some of the alt-rock era's hugest hits, but in recent years the former bandmates have been bitterly divided by legal drama and interpersonal conflict",
 		href: "https://www.rollingstone.com/music/music-features/live-alt-rock-band-crime-lawsuits-1234677011/",
 		date: "February 2023",
@@ -395,5 +414,5 @@ const articles: {
 
 /** filter out draft posts based on the environment */
 export async function getAllArticles() {
-	return articles
+	return articles;
 }
