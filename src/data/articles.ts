@@ -36,6 +36,13 @@ const articles: {
 		source: "Intelligencer",
 	},
 	{
+		title: "My Father and the Front Page",
+		desc: "Dad loved the obituaries. I thought that unless the New York Times announced your death, you hadn't really lived.",
+		href: "https://www.vulture.com/article/griffin-dunne-scheme-to-honor-my-fathers-death-new-york-times.html",
+		date: "June, 2026",
+		source: "Vulture",
+	},
+	{
 		title: "Free Ben & Jerry's!",
 		desc: "Ben Cohen says his company is being strangled. Is he the last holdout of hippie capitalism or a compulsive contrarian?",
 		href: "https://nymag.com/intelligencer/article/ben-and-jerrys-ben-cohen-unilever-magnum.html",
