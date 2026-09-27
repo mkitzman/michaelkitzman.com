@@ -6,6 +6,13 @@ const articles: {
 	source: string;
 }[] = [
 	{
+		title: "Cool Is  A Skill Issue",
+		desc: "A trend report by EX Research",
+		href: "https://www.exresearch.co/what-is-cool/",
+		date: "September, 2026",
+		source: "exresearch.co",
+	},
+	{
 		title:
 			"Black Death, COVID, and Why We Keep Telling the Myth of a Renaissance Golden Age and Bad Middle Ages",
 		desc: "If the Black Death caused the Renaissance, will COVID also create a golden age?",
