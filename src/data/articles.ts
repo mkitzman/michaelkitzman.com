@@ -8,7 +8,7 @@ const articles: {
 	{
 		title: "Cool Is  A Skill Issue",
 		desc: "A trend report by EX Research",
-		href: "https://www.exresearch.co/what-is-cool/",
+		href: "https://www.exresearch.co/what-is-cool",
 		date: "September, 2026",
 		source: "exresearch.co",
 	},

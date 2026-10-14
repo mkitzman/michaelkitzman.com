@@ -7,6 +7,14 @@ const techArticles: {
 	author: string;
 }[] = [
 	{
+		title: "What the 500 in Blue-500 Means",
+		desc: "How colour palettes number their shades, and why blue-500 means something different in each one",
+		href: "https://www.hipuku.dev/writing/what-the-500-in-blue-500-means",
+		date: "October, 2026",
+		author: "hipuku",
+		source: "hipuku.dev",
+	},
+	{
 		title: "The Voice of Google",
 		desc: "I rose at Google by amplifying the company’s lofty rhetoric of humane innovation. Then I used my marketing skills as a tool for internal dissent.",
 		href: "https://www.newyorker.com/culture/the-weekend-essay/the-voice-of-google",
