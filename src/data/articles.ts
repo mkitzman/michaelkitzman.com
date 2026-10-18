@@ -6,6 +6,15 @@ const articles: {
 	source: string;
 }[] = [
 	{
+		title:
+			"How Steffen Skjottelvik&#x27;s Journey Across Canada Came to a Tragic End",
+		desc: "For three years and 750 miles, Steffen Skjottelvik lived a life of adventure. Until the adventure took his life.",
+		href: "https://www.nytimes.com/interactive/2026/10/10/magazine/steffen-skjottelvik-canada-journey-death.html",
+		date: "October, 2026",
+		source: "NY Times",
+	},
+
+	{
 		title: "Cool Is  A Skill Issue",
 		desc: "A trend report by EX Research",
 		href: "https://www.exresearch.co/what-is-cool",
