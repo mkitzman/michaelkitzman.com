@@ -7,11 +7,19 @@ const techArticles: {
 	author: string;
 }[] = [
 	{
+		title: "AI Agents Are Here. Nobody's Ready.",
+		desc: "They were supposed to make our lives easier. Now they're wreaking havoc on the internet.",
+		href: "https://www.theatlantic.com/technology/2026/10/ai-agent-chaos-e-commerce/689010/",
+		date: "October, 2026",
+		author: "Matteo Wong and Charlie Warzel",
+		source: "theatlantic.com",
+	},
+	{
 		title: "What the 500 in Blue-500 Means",
 		desc: "How colour palettes number their shades, and why blue-500 means something different in each one",
 		href: "https://www.hipuku.dev/writing/what-the-500-in-blue-500-means",
 		date: "October, 2026",
-		author: "hipuku",
+		author: "hipuku	",
 		source: "hipuku.dev",
 	},
 	{
